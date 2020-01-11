@@ -1,0 +1,107 @@
+// create button types
+.buttons {
+    .button1 {
+        .btn {
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .b-green {
+            border-radius: 20px;
+            font-size: 14px;
+            border: 0;
+            position: relative;
+
+            i {
+                width: 35px;
+                background-color: #28b36a;
+                border-radius: 20px 0 0 20px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                line-height: 2.5;
+                padding: 0 10px;
+
+            }
+        }
+
+        .b-lightgray {
+            border-radius: 20px;
+            font-size: 14px;
+            border: 0;
+            position: relative;
+
+            i {
+                border-radius: 20px 0 0 20px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                line-height: 2.5;
+                padding: 0 10px;
+            }
+        }
+    }
+
+    // create buttons header
+    .button2 {
+        .shopping {
+            border-radius: 50%;
+            position: relative;
+            padding: 0 10px;
+
+            .fa-shopping-cart {
+                width: 15px;
+            }
+
+            span {
+                position: absolute;
+                right: 0;
+                bottom: -4px;
+                border-radius: 50%;
+                font-size: 8px;
+                padding: 1px;
+                width: 14px;
+            }
+        }
+
+        // create dollar dropdown
+        .dropdown {
+            .dollar-sign {
+                border-radius: 20px;
+                position: relative;
+                padding: 6px 14px;
+                border: 2px solid $color-gray;
+
+                .fa-dollar-sign {
+                    width: 15px;
+                }
+
+                .icon-font-chevron-down {
+                    position: absolute;
+                    right: 0;
+                    bottom: -4px;
+                    border-radius: 50%;
+                    font-size: 5px;
+                    padding: 1px;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        .dropdown-menu {
+            border-radius: 20px;
+            min-width: 43px;
+
+            .dropdown-item {
+                padding: 14px;
+            }
+        }
+
+        .login {
+            border-radius: 20px;
+        }
+    }
+}

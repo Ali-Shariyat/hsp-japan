@@ -1,0 +1,91 @@
+//-------------------------------------------
+//   mixins.scss
+//   - font face
+//   - transition
+//   - numbers
+//   - media query
+//   - user select
+//-------------------------------------------
+// =============================================================================
+// Font Face
+// =============================================================================
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+  $extmods: (
+          eot: "?",
+          svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+          otf: "opentype",
+          ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+// =============================================================================
+// transition
+// =============================================================================
+@mixin transition($value){
+  transition: $value;
+  -moz-transition: $value;
+  -webkit-transition: $value;
+  -o-transition: $value;
+}
+
+// =============================================================================
+// Media Query
+// =============================================================================
+@mixin media-query($canvas) {
+
+  @if $canvas == LM {
+    @media only screen and (min-width: $M) {
+      @content
+    }
+  } @else if $canvas == M {
+    @media only screen and (max-width: $M) {
+      @content
+    }
+  }
+  @elseif $canvas == L {
+    @media only screen and (min-width: $L) {
+      @content
+    }
+  }@elseif $canvas == LB {
+    @media only screen and (max-width: $L) {
+      @content
+    }
+  }@else if $canvas == S {
+    @media only screen and (max-width: $S) {
+      @content
+    }
+  } @else if $canvas == xs {
+    @media only screen and (max-width: $xs) {
+      @content
+    }
+  } @else {
+    @media only screen and #{$canvas} {
+      @content
+    }
+  }
+}
+// =============================================================================
+// User select
+// =============================================================================
+@mixin user-select($value:none){
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+}

@@ -1,0 +1,131 @@
+// create product-box cards
+.product-box {
+    .card-deck {
+        .card {
+            border-radius: 20px;
+
+            .card-head {
+                position: relative;
+
+                .gheart,
+                .rheart{
+                    position: absolute;
+                    right: 10px;
+                    bottom: -10px;
+                    padding: 10px;
+                    border-radius: 50%;
+                }
+
+                .card-img {
+                    width: 100%;
+                    border-radius: 20px 20px 0 0;
+                }
+            }
+
+            .card-body {
+                h6 {
+                    border-radius: 0 20px 20px 0;
+                    width: 120px;
+                }
+
+                .price {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+// create product check out
+    .product-check-out {
+        .card {
+            border-radius: 20px;
+            position: relative;
+
+                .card-img {
+                    border-radius: 10px;
+                    background-color: #fff;
+                    border: 1px solid $color-gray;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .card-body {
+                    .card-text {
+                        font-size: 14px;
+                    }
+
+                    .price {
+                        font-size: 10px;
+                    }
+                }
+            .close {
+                    position: absolute;
+                    right: 0;
+                    top: -10px;
+                    background-color: $color-orange;
+                    color: #fff;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                    i {
+                        vertical-align: super;
+                    }
+            }
+        }
+// create add-low featuer
+        .add-low {
+            div {
+                width: 100px;
+
+                .next-page {
+                    width: 100%;
+                    border-radius: 0 20px 20px 0;
+                    padding: 2px 5px;
+                    text-align: center;
+                }
+
+                .number-page {
+                    width: 100%;
+                    padding: 2px 5px;
+                    text-align: center;
+                }
+
+                .previous-page {
+                    width: 100%;
+                    border-radius: 20px 0 0 20px;
+                    padding: 2px 5px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+// create forms
+    .text-boxes {
+        .form-group {
+            input {
+                border-radius: 20px;
+                border: 1px solid #ddd;
+            }
+
+            textarea {
+                border-radius: 20px;
+                border: 1px solid #ddd;
+            }
+
+            .search-box {
+                position: relative;
+
+                .search-icon {
+                    position: absolute;
+                    right: 1px;
+                    bottom: 1px;
+                    padding: 6px 10px;
+                    border-radius: 0 20px 20px 0;
+                }
+            }
+        }
+    }
+}

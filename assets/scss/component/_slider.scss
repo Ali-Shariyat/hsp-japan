@@ -1,0 +1,154 @@
+// create slider details
+.slider {
+    .slider1 {
+
+        // create slider point
+        .next {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .point {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .line {
+            width: 30px;
+            height: 10px;
+            border-radius: 10px;
+        }
+    }
+
+    // create mini buttons
+    .slider2 {
+        .gheart {
+            width: 30px;
+            height: 30px;
+
+            border-radius: 50%;
+
+            i {
+                color: #888;
+            }
+        }
+
+        .rheart {
+            width: 30px;
+            height: 30px;
+
+            border-radius: 50%;
+
+            i {
+                color: $color-white;
+            }
+        }
+
+        .star {
+            .icon-font-star-full {
+                color: #FFE816;
+            }
+
+            .icon-font-star-border {
+                color: $color-dark;
+            }
+        }
+    }
+
+    // create bread cromb (Incomplete)
+    .slider3 {
+        .process_c {
+            --processC_w: 77vw;
+            --round_w: 10px;
+            --line_h: 2px;
+            --line_m: 5px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: var(--processC_w);
+            position: relative;
+        }
+
+        .eProcess {
+            --color: #595959;
+            color: $color-dark;
+            text-align: center;
+            width: var(--round_w);
+            height: var(--round_w);
+            background: $color-dark;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .eProcess {
+            &:nth-of-type(1)::after {
+                content: "\f112";
+
+            }
+
+            &:nth-of-type(2)::after {
+                content: "Verification";
+            }
+
+            &:nth-of-type(3)::after {
+                content: "Completion";
+            }
+
+            &::after {
+                font-size: 12px;
+                line-height: 1;
+                position: absolute;
+                bottom: calc(100% + 6px);
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                width: calc((var(--processC_w) - 3 * var(--round_w)) / 2 - 2 * var(--line_m));
+                border-top: var(--line_h) solid currentcolor;
+                position: absolute;
+                top: calc(50% - var(--line_h) / 2);
+                right: calc(100% + var(--line_m));
+            }
+
+            &:first-of-type::before {
+                content: none;
+            }
+        }
+
+        @media (min-width: 470px) {
+            .process_c {
+                --processC_w: 200px;
+            }
+        }
+    }
+
+    // create dropdown button
+    .slider4 {
+        .btn {
+            border-radius: 20px;
+            position: relative;
+            background-color: $color-lightgray;
+            i {
+                width: 35px;
+                background-color: $color-gray;
+                border-radius: 0 20px 20px 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                line-height: 2;
+                padding: 0 10px;
+            }
+        }
+
+        .dropdown-menu {
+            border-radius: 20px;
+            min-width: 9rem;
+        }
+    }
+}

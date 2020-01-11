@@ -1,0 +1,66 @@
+@include font-face(icon-font, '../fonts/icon-font', normal, normal, woff);
+
+[class^="icon-font-"],
+[class*=" icon-font-"],
+.icon-font-family{
+  display: inline-flex;
+  &::before,
+  &::after{
+    font-family: icon-font, $DefaultFonts;
+    font-weight: normal;
+    font-style: normal;
+    font-size: inherit;
+    line-height: 1;
+  }
+}
+//==========================================
+//colors
+//==========================================
+.color-white{
+  color: $color-white;
+}
+.color-gray-2{
+  color: $color-gray-2;
+}
+//==========================================
+//icon fonts
+//==========================================
+.icon-font-dollar::before {
+  content: "\f100";
+}
+.icon-font-shop::before {
+  content: "\f101";
+}
+.icon-font-avatar::before {
+  content: "\f102";
+}
+.icon-font-chevron-down::before {
+  content: "\f103";
+}
+.icon-font-chevron-right::before {
+  content: "\f104";
+}
+.icon-font-star-full::before {
+  content: "\f105";
+}
+.icon-font-star-border::before {
+  content: "\f106";
+}
+.icon-font-heart-like::before {
+  content: "\f107";
+}
+.icon-font-category::before {
+  content: "\f108";
+}
+.icon-font-close::before {
+  content: "\f109";
+}
+.icon-font-finger-like::before {
+  content: "\f110";
+}
+.icon-font-search::before {
+  content: "\f111";
+}
+.icon-font-home::before {
+  content: "\f112";
+}

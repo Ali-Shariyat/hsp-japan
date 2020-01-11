@@ -1,0 +1,24 @@
+// create cumments card
+.comment {
+    .card {
+        border-radius: 20px;
+        background-color: $color-lightgray;
+
+        .card-head {
+            .l-head {
+                img {
+                    border-radius: 50%;
+                    width: 50px;
+                }
+            }
+            .r-head {
+            	i {
+            		border: 2px solid $color-gray;
+                    border-radius: 50%;
+                    padding: 10px;
+                    background-color: $color-white;
+            	}
+            }
+        }
+    }
+}
