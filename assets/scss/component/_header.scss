@@ -1,0 +1,77 @@
+header {
+  .header-big {
+    .header-item {
+      .header-item-head {
+        &:hover {
+          ~ {
+            .header-item-main {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .header-item-main {
+        left: 0;
+        right: 0;
+        top: 100%;
+        opacity: 0;
+        visibility: hidden;
+        top: calc(100% - 14px);
+        padding-top: 14px;
+        > div{
+          border-top: 2px solid $color-white;
+          box-shadow: 0 1px 5px 0 $color-navy;
+          border-radius: 0 0 10px 10px;
+        }
+        @include transition(all .2s ease);
+
+        &:hover {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        .header-item-sidebar {
+          border-right: 1px solid $color-white;
+
+          li {
+            &.active,
+            &:hover {
+              background-color: $color-orange;
+            }
+          }
+        }
+
+        .header-item-content {
+          height: 360px;
+
+          .header-item-content-item {
+            &:not(.active) {
+              display: none;
+            }
+
+            li {
+              &.active,
+              &:hover {
+                background-color: $color-gray;
+
+                a {
+                  color: $color-orange;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .rail {
+      height: 2px;
+      width: 0;
+      left: 0;
+      top: 50%;
+      @include transition(all .2s ease);
+    }
+  }
+}

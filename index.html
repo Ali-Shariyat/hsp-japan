@@ -1,14 +1,1889 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>hsp japan</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+<header>
+    <div class="top-header">
+        <div class="container custom-container">
+            <div class="row justify-content-end py-4">
+                <div class="col-xl-5 mr-5">
+                    <div class="product-box">
+                        <div class="text-boxes">
+                            <div class="form-group">
+                                <div class="search-box">
+                                    <input class="form-control search" type="search" placeholder="Search"
+                                           aria-label="Search">
+                                    <a class="search-icon b-lightgray c-dark" href="#"><i class="icon-font-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons pl-4">
+                    <div class="d-flex button2">
+                        <a href="#" class="btn shopping b-gray d-flex justify-content-center align-items-center">
+                            <i class="icon-font-shop align-items-center f-18"></i>
+                            <span class="b-green">
+                                    1
+                                </span>
+                        </a>
+                        <div class="dropdown ml-2">
+                            <a class="btn dollar-sign b-white" href="#" role="button" id="dropdownMenuDollar"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-font-dollar align-items-center"></i>
+                                <i class="icon-font-chevron-down b-gray justify-content-center align-items-center"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuDollar">
+                                <a class="dropdown-item" href="#">...</a>
+                                <a class="dropdown-item" href="#">...</a>
+                                <a class="dropdown-item" href="#">...</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn login b-gray ml-2" data-toggle="modal" data-target="#login">
+                            <i class="icon-font-avatar align-items-center"></i>
+                            Login / signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-big b-navy">
+        <div class="container custom-container">
+            <div class="row">
+                <ul class="mb-0 d-flex py-3 position-relative w-100" data-add-rail="">
+                    <li class="header-item pr-4 active">
+                        <div class="header-item-head">
+                            <a href="#" class="text-transform-capitalize c-white font-family-mina mb-0 f-22">home</a>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                category
+                                <i class="icon-font-chevron-down f-8 pl-2"></i>
+                            </a>
+                        </div>
+                        <div class="header-item-main position-absolute">
+                            <div class="d-flex overflow-hidden">
+                                <ul class="header-item-sidebar col-xl-3 b-navy p-0" data-hover>
+                                    <li class="py-2 px-4 cursor-pointer item active">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-item-content col-xl-9 b-navy p-0" data-hover-main>
+                                    <li class="header-item-content-item h-100 item-main active">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                stock
+                                <i class="icon-font-chevron-down f-8 pl-2"></i>
+                            </a>
+                        </div>
+                        <div class="header-item-main position-absolute">
+                            <div class="d-flex overflow-hidden">
+                                <ul class="header-item-sidebar col-xl-3 b-navy p-0" data-hover>
+                                    <li class="py-2 px-4 cursor-pointer item active">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-item-content col-xl-9 b-navy p-0" data-hover-main>
+                                    <li class="header-item-content-item h-100 item-main active">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-uppercase c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                oem
+                                <i class="icon-font-chevron-down f-8 pl-2"></i>
+                            </a>
+                        </div>
+                        <div class="header-item-main position-absolute">
+                            <div class="d-flex overflow-hidden">
+                                <ul class="header-item-sidebar col-xl-3 b-navy p-0" data-hover>
+                                    <li class="py-2 px-4 cursor-pointer item active">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-item-content col-xl-9 b-navy p-0" data-hover-main>
+                                    <li class="header-item-content-item h-100 item-main active">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                machine
+                                <i class="icon-font-chevron-down f-8 pl-2"></i>
+                            </a>
+                        </div>
+                        <div class="header-item-main position-absolute">
+                            <div class="d-flex overflow-hidden">
+                                <ul class="header-item-sidebar col-xl-3 b-navy p-0" data-hover>
+                                    <li class="py-2 px-4 cursor-pointer item active">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-item-content col-xl-9 b-navy p-0" data-hover-main>
+                                    <li class="header-item-content-item h-100 item-main active">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#" class="c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                brands
+                                <i class="icon-font-chevron-down f-8 pl-2"></i>
+                            </a>
+                        </div>
+                        <div class="header-item-main position-absolute">
+                            <div class="d-flex overflow-hidden">
+                                <ul class="header-item-sidebar col-xl-3 b-navy p-0" data-hover>
+                                    <li class="py-2 px-4 cursor-pointer item active">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                    <li class="py-2 px-4 cursor-pointer item">
+                                        <span class="color-white f-18">sidebar item</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-item-content col-xl-9 b-navy p-0" data-hover-main>
+                                    <li class="header-item-content-item h-100 item-main active">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item-content-item h-100 item-main">
+                                        <ul class="d-flex flex-column flex-wrap h-100">
+                                            <li class="cursor-pointer active">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                            <li class="cursor-pointer">
+                                                <a href="" class="color-white f-18 w-100 py-1 px-4 d-block">sidebar
+                                                    content</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                contact us
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                about us
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header-item pr-4">
+                        <div class="header-item-head">
+                            <a href="#"
+                               class="text-transform-capitalize c-white font-family-mina mb-0 f-22 d-flex align-items-center">
+                                blog & news
+                            </a>
+                        </div>
+                    </li>
+                    <li class="rail position-absolute b-white"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
 
+<!------ modals ------->
+<div class="modal fade login-popup" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog d-flex justify-content-center align-items-center h-100" role="document">
+        <div class="modal-content b-navy border-0 border-radius-18">
+            <div class="modal-header border-0 mb-4">
+                <div class="bgc-storm-gray d-flex justify-content-center align-items-center login-icon border-radius-50 overflow-hidden position-absolute">
+                    <i class="icon-font-avatar color-navy"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="product-box">
+                    <div class="text-boxes">
+                        <form action="" class="needs-validation" novalidate>
+                            <div class="form-group">
+
+                                <div class="col-md-12 mb-2 px-0">
+                                    <label class="text-transform-capitalize w-100 color-white-8 f-18 text-center"
+                                           for="name-val">username</label>
+                                    <input id="name-val" class="mb-0 w-100 form-control bgc-storm-gray border-0"
+                                           placeholder="Enter your username..." type="text" name="text" required>
+
+                                    <div class="invalid-feedback mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <i class="icon-font-warning f-14"></i>
+                                            <span class="f-12 pl-2">Username already registered</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2 px-0">
+                                    <label class="text-transform-capitalize w-100 color-white-8 f-18 text-center"
+                                           for="password">password</label>
+                                    <input id="password" class="mb-0 w-100 form-control bgc-storm-gray border-0"
+                                           placeholder="Enter your password..." type="password" name="text" required>
+
+                                    <div class="invalid-feedback mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <i class="icon-font-warning f-14"></i>
+                                            <span class="f-12 pl-2">invalid password</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center my-4">
+                                    <span class="color-white-8 f-16">You don’t have account? </span>
+                                    <a href="" class="text-decoration-underline f-16 color-white-8">Sign up</a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="" class="text-decoration-underline f-16 color-white-8">Forget password?</a>
+                                    <button class="btn btn-primary border-radius-50 bgc-white-8 border-0 color-black px-5 text-transform-capitalize font-weight-bold" type="submit">login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
 </body>
 </html>

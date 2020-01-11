@@ -5,6 +5,7 @@
 //   - numbers
 //   - media query
 //   - user select
+//   - placeholder
 //-------------------------------------------
 // =============================================================================
 // Font Face
@@ -29,8 +30,8 @@
 
   @font-face {
     font-family: quote($name);
-    font-style: $style;
     font-weight: $weight;
+    font-style: $style;
     src: $src;
   }
 }
@@ -38,7 +39,7 @@
 // =============================================================================
 // transition
 // =============================================================================
-@mixin transition($value){
+@mixin transition($value) {
   transition: $value;
   -moz-transition: $value;
   -webkit-transition: $value;
@@ -58,16 +59,15 @@
     @media only screen and (max-width: $M) {
       @content
     }
-  }
-  @elseif $canvas == L {
+  } @else if $canvas == L {
     @media only screen and (min-width: $L) {
       @content
     }
-  }@elseif $canvas == LB {
+  } @else if $canvas == LB {
     @media only screen and (max-width: $L) {
       @content
     }
-  }@else if $canvas == S {
+  } @else if $canvas == S {
     @media only screen and (max-width: $S) {
       @content
     }
@@ -81,11 +81,29 @@
     }
   }
 }
+
 // =============================================================================
 // User select
 // =============================================================================
-@mixin user-select($value:none){
+@mixin user-select($value:none) {
   -webkit-user-select: $value;
   -moz-user-select: $value;
   -ms-user-select: $value;
+}
+
+// =============================================================================
+// placeholder
+// =============================================================================
+@mixin placeholder() {
+  &::-webkit-input-placeholder { /* Edge */
+    @content
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    @content
+  }
+
+  &::placeholder {
+    @content
+  }
 }
