@@ -60,6 +60,15 @@ body {
   }
 }
 
+.dividing-line {
+  border-left: 1px solid $color-white;
+}
+//==========================================
+// line height
+//==========================================
+.line-height-1{
+  line-height: 1;
+}
 //==========================================
 // box shadows
 //==========================================
@@ -167,6 +176,7 @@ body {
 .bgc-navy {
   background-color: $color-navy;
 }
+
 .bgc-storm-gray {
   background-color: $color-storm-gray;
 }
@@ -207,6 +217,9 @@ body {
   background-color: $color-el-salva;
 }
 
+.bgc-comet {
+  background-color: $color-comet;
+}
 //==========================================
 //icon fonts
 //==========================================
@@ -282,6 +295,18 @@ body {
   content: "\f117";
 }
 
+.icon-font-hammer::before {
+  content: "\f118";
+}
+
+.icon-font-plus-menu::before {
+  content: "\f119";
+}
+
+.icon-font-remove-menu::before {
+  content: "\f120";
+}
+
 //==========================================
 //custom container
 //==========================================
@@ -319,4 +344,18 @@ body {
       background-color: $color-lightgray !important;
     }
   }
+}
+
+//==========================================
+//black page
+//==========================================
+.black-page {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.68);
+  z-index: 20;
+  position: fixed;
+  display: none;
 }

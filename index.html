@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <div class="top-header">
+    <div class="top-header d-none d-lg-block">
         <div class="container custom-container">
             <div class="row justify-content-end py-4">
                 <div class="col-xl-5 mr-5">
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="header-big b-navy">
+    <div class="header-big b-navy d-none d-lg-block">
         <div class="container custom-container">
             <div class="row">
                 <ul class="mb-0 d-flex py-3 position-relative w-100" data-add-rail="">
@@ -1802,8 +1802,115 @@
             </div>
         </div>
     </div>
+    <!----------- header in s and md ----------->
+    <div class="d-flex d-lg-none justify-content-between container-fluid header-small py-2 position-fixed bgc-navy">
+        <!----------- menu small btn to open menu ----------->
+        <div class="menu-small-icon d-flex align-items-center">
+            <i class="icon-font-hammer font-size-18 color-white"></i>
+        </div>
+        <!----------- page logo in small page ----------->
+        <div class="logo pr-4">
+            <a href="#"><img src="assets/image/logo.png" alt="logo"></a>
+        </div>
+        <!----------- search btn in small size ----------->
+        <div class="search-login-icon d-inline-flex align-items-center color-white">
+            <span class="icon-font-search font-size-20 color-white" data-toggle="modal"
+                  data-target="#search-box"></span>
+            <div class="dividing-line py-2 ml-2 mr-1"></div>
+            <a class="icon-font-avatar font-size-20 font-size-20 ml-2 color-white" data-toggle="modal"
+               data-target="#login"></a>
+        </div>
+    </div>
+    <!----------- menu sidebar in small size ----------->
+    <div class="menu-items position-fixed h-100 text-white">
+        <div class="close-menu w-100 d-flex justify-content-end"><i
+                class="icon-font-close px-2 pt-2 pb-1 font-size-26 d-inline-flex"></i></div>
+        <ul class="">
+            <li class="nav-item">
+                <a class="color-white" href="#">home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="color-white d-flex justify-content-between">
+                    <a class="color-white" href="">Category</a>
+                    <i class="position-relative icon-font-plus-menu f-22"></i>
+                </div>
+                <ul class="menu-down pb-0 px-2 pt-0">
+                    <li class="nav-item dropdown mb-0 pt-3">
+                        <div class="color-white d-flex justify-content-between">
+                            <a class="color-white" href="">Category</a>
+                            <i class="position-relative icon-font-plus-menu f-22"></i>
+                        </div>
+                        <ul class="menu-down p-0">
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mb-0 pt-2">
+                        <div class="color-white d-flex justify-content-between">
+                            <a class="color-white" href="">Category</a>
+                            <i class="position-relative icon-font-plus-menu f-22"></i>
+                        </div>
+                        <ul class="menu-down p-0">
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                            <li class="mb-0 px-2 pt-2">
+                                <a class="color-white" href="#">Category</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="color-white" href="#">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="color-white" href="#">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="color-white" href="#">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="color-white" href="#">home</a>
+            </li>
+        </ul>
+    </div>
 </header>
-<main>
+<main class="">
     <div class="slider slider-home-page col-xl-12 px-0">
         <div class="col-xl-12 px-0 d-flex" data-slider
              data-disable-number="1"
@@ -1831,14 +1938,15 @@
     </div>
     <div class="container custom-container">
         <div class="row">
-            <div class="slider col-xl-12 px-0 mt-3">
-                <div class="slider-title px-5 mb-3">
+            <div class="slider col-xl-12 px-2 px-md-0 mt-3">
+                <div class="slider-title px-3 px-md-5 mb-3">
                     <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Best Viewevd
                         Product</h2>
                 </div>
                 <div class="col-xl-12 px-5 py-4 bgc-navy d-flex border-radius-50" data-slider
-                     data-disable-number="4"
-                     data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="5"
+                     data-disable-number="5"
+                     data-disable-number-xxs="1" data-disable-number-xs="1" data-disable-number-s="2"
+                     data-disable-number-m="3" data-disable-number-xl="5"
                      data-items-nav="false"
                      data-autoPlay="4000" data-pauseAutoPlayOnHover="true" data-loop="false" data-fade="false"
                      data-cell-align="left">
@@ -2071,13 +2179,13 @@
         </div>
     </div>
     <div class="container custom-container mt-4 pb-5">
-        <div class="row">
-            <div class="slider col-xl-9 px-0 mt-3 position-relative pr-0 pr-lg-4">
-                <div class="slider-title px-5 mb-3">
+        <div class="row px-2 px-md-0">
+            <div class="slider col-xl-9 col-lg-9 col-md-8 col-sm-12 px-0 mt-3 position-relative pr-0 pr-md-4 pb-5 pb-md-0">
+                <div class="slider-title px-3 px-md-5 mb-3">
                     <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Special Offer</h2>
                 </div>
-                <div class="d-flex pause-timer position-relative">
-                    <div class="nav-slider d-flex flex-column justify-content-between align-items-center px-4 py-2">
+                <div class="d-flex pause-timer position-relative pr-5 pr-md-0">
+                    <div class="nav-slider d-flex flex-column justify-content-between align-items-end align-items-md-center px-2 px-md-4 py-2">
                         <div class="chevron chevron-up mr-2 d-flex justify-content-center align-items-center border-radius-50 cursor-pointer">
                             <i class="icon-font-chevron-up f-10 color-white"></i>
                         </div>
@@ -2119,7 +2227,7 @@
                             <i class="icon-font-chevron-down f-10 color-white"></i>
                         </div>
                     </div>
-                    <div class="col-xl-12 px-3 d-flex flex-wrap bgc-navy timer-slider-left border-radius-50 pt-3"
+                    <div class="col-xl-12 px-2 px-md-3 d-flex flex-wrap bgc-navy timer-slider-left border-radius-50 pt-3"
                          data-timer-set data-slider
                          data-disable-number="1"
                          data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="1"
@@ -2127,160 +2235,25 @@
                          data-loop="false" data-fade="true"
                          data-cell-align="left">
                         <ul class="slider this-slider w-100 this-timer-slider-left mb-0">
-                            <li class="item px-0 product-box col-xl-12">
+                            <li class="item px-0 product-box col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
+                                    <div class="card border-0 border-radius-30 d-block d-md-flex flex-wrap flex-md-row align-items-start bgc-transparent">
+                                        <div class="card-head p-1 col-xl-4 col-lg-4 col-md-4 col-sm-12 position-relative">
                                             <img class="card-img border-radius-50"
                                                  src="assets/images/ben-sweet-456320.jpg" alt="...">
                                             <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
                                                 <span class="f-30">%45</span>
                                             </div>
                                         </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
+                                        <div class="card-body p-0 py-2 py-md-3 col-xl-8 col-lg-8 col-md-4 col-sm-12">
                                             <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
                                                 Name</h4>
                                             <div class="px-3">
                                                 <label class="text-transform-capitalize f-25 color-white">Brand Or Car
                                                     Name</label>
                                                 <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
-                                                        <s>$80</s>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-12">
-                                <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
-                                            <img class="card-img border-radius-50"
-                                                 src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
-                                                <span class="f-30">%45</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
-                                            <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
-                                                Name</h4>
-                                            <div class="px-3">
-                                                <label class="text-transform-capitalize f-25 color-white">Brand Or Car
-                                                    Name</label>
-                                                <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
-                                                        <s>$80</s>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-12">
-                                <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
-                                            <img class="card-img border-radius-50"
-                                                 src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
-                                                <span class="f-30">%45</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
-                                            <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
-                                                Name</h4>
-                                            <div class="px-3">
-                                                <label class="text-transform-capitalize f-25 color-white">Brand Or Car
-                                                    Name</label>
-                                                <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
-                                                        <s>$80</s>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-12">
-                                <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
-                                            <img class="card-img border-radius-50"
-                                                 src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
-                                                <span class="f-30">%45</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
-                                            <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
-                                                Name</h4>
-                                            <div class="px-3">
-                                                <label class="text-transform-capitalize f-25 color-white">Brand Or Car
-                                                    Name</label>
-                                                <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
-                                                        <s>$80</s>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-12">
-                                <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
-                                            <img class="card-img border-radius-50"
-                                                 src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
-                                                <span class="f-30">%45</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
-                                            <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
-                                                Name</h4>
-                                            <div class="px-3">
-                                                <label class="text-transform-capitalize f-25 color-white">Brand Or Car
-                                                    Name</label>
-                                                <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
-                                                        <s>$80</s>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-12">
-                                <div class="card-deck px-2">
-                                    <div class="card border-0 border-radius-30 d-flex flex-row bgc-transparent">
-                                        <div class="card-head p-1 col-xl-4 position-relative">
-                                            <img class="card-img border-radius-50"
-                                                 src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <div class="discount position-absolute bgc-green color-white border-radius-50 px-3">
-                                                <span class="f-30">%45</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-body p-0 py-3 col-xl-8">
-                                            <h4 class="text-white text-transform-capitalize f-45 mb-0 px-3">Product
-                                                Name</h4>
-                                            <div class="px-3">
-                                                <label class="text-transform-capitalize f-25 color-white">Brand Or Car
-                                                    Name</label>
-                                                <div class="price text-left">
-                                                    <span class="color-green f-85 pl-5">$56</span>
-                                                    <span class="f-25 pl-4 color-white">
+                                                    <span class="color-green f-85 pl-3 pl-lg-5">$56</span>
+                                                    <span class="f-25 pl-2 pl-lg-4 color-white">
                                                         <s>$80</s>
                                                     </span>
                                                 </div>
@@ -2296,8 +2269,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slider col-xl-3 px-0 mt-3">
-                <div class="slider-title px-5 mb-3">
+            <div class="slider col-xl-3 col-lg-3 col-md-4 col-sm-12 px-0 mt-3">
+                <div class="slider-title px-3 px-md-5 mb-3">
                     <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35 text-center">
                         Suggestion</h2>
                 </div>
@@ -2321,7 +2294,7 @@
                                                     <h6 class="mb-0 w-auto f-20 color-white">Product Name</h6>
                                                     <span class="f-14 color-white">%14</span>
                                                 </div>
-                                                <div class="price text-right bgc-el-salva px-3 py-2 border-radius-50 d-flex">
+                                                <div class="price text-right bgc-el-salva px-3 px-md-2 py-2 py-md-1 py-lg-2 border-radius-50 d-flex">
                                                     <span class="color-white f-30">$80</span>
                                                 </div>
                                             </div>
@@ -2341,8 +2314,8 @@
                                                     <h6 class="mb-0 w-auto f-20 color-white">Product Name</h6>
                                                     <span class="f-14 color-white">%14</span>
                                                 </div>
-                                                <div class="price text-right bgc-el-salva px-3 py-2 border-radius-50 d-flex">
-                                                    <span class="color-white f-30">$20</span>
+                                                <div class="price text-right bgc-el-salva px-3 px-md-2 py-2 py-md-1 py-lg-2 border-radius-50 d-flex">
+                                                    <span class="color-white f-30">$80</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2361,8 +2334,8 @@
                                                     <h6 class="mb-0 w-auto f-20 color-white">Product Name</h6>
                                                     <span class="f-14 color-white">%14</span>
                                                 </div>
-                                                <div class="price text-right bgc-el-salva px-3 py-2 border-radius-50 d-flex">
-                                                    <span class="color-white f-30">$10</span>
+                                                <div class="price text-right bgc-el-salva px-3 px-md-2 py-2 py-md-1 py-lg-2 border-radius-50 d-flex">
+                                                    <span class="color-white f-30">$80</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2381,8 +2354,28 @@
                                                     <h6 class="mb-0 w-auto f-20 color-white">Product Name</h6>
                                                     <span class="f-14 color-white">%14</span>
                                                 </div>
-                                                <div class="price text-right bgc-el-salva px-3 py-2 border-radius-50 d-flex">
-                                                    <span class="color-white f-30">$56</span>
+                                                <div class="price text-right bgc-el-salva px-3 px-md-2 py-2 py-md-1 py-lg-2 border-radius-50 d-flex">
+                                                    <span class="color-white f-30">$80</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-12">
+                                <div class="card-deck px-2">
+                                    <div class="card border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/slider/slider-1.png" alt="...">
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <div class="px-3 d-flex bgc-orange border-radius-50 justify-content-between align-items-center py-2">
+                                                <div class="pl-2">
+                                                    <h6 class="mb-0 w-auto f-20 color-white">Product Name</h6>
+                                                    <span class="f-14 color-white">%14</span>
+                                                </div>
+                                                <div class="price text-right bgc-el-salva px-3 px-md-2 py-2 py-md-1 py-lg-2 border-radius-50 d-flex">
+                                                    <span class="color-white f-30">$80</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2401,27 +2394,25 @@
     <div class="container custom-container mt-2">
         <div class="row">
             <div class="slider col-xl-12 px-0 mt-3">
-                <!--                <div class="slider-title px-5 mb-3">-->
-                <!--                    <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Best Viewevd Product</h2>-->
-                <!--                </div>-->
-                <div class="d-flex">
-                    <div class="col-xl-2 pl-0 d-flex">
-                        <div class="bgc-navy slider-sidebar-title border-radius-right-65 d-flex justify-content-center align-items-center">
-                            <h3 class="f-45 color-white px-4">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 pl-2 pl-md-0 d-flex">
+                        <div class="bgc-navy slider-sidebar-title border-radius-right-65 d-flex justify-content-center align-items-center py-3 py-md-0 mb-3 mb-md-0">
+                            <h3 class="f-45 color-white px-5 mb-0">
                                 Best
                                 sellers
                                 Product
                             </h3>
                         </div>
                     </div>
-                    <div class="col-xl-10 px-0 d-flex" data-slider
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 px-5 px-md-0 d-flex" data-slider
                          data-disable-number="5"
-                         data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="5"
+                         data-disable-number-xxs="1" data-disable-number-xs="1"
+                         data-disable-number-s="1" data-disable-number-m="2" data-disable-number-xl="5"
                          data-items-nav="false"
                          data-loop="false" data-fade="false"
                          data-cell-align="left">
                         <ul class="slider this-slider w-100">
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2448,7 +2439,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2475,7 +2466,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2502,7 +2493,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2529,7 +2520,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2556,7 +2547,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2583,7 +2574,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2610,7 +2601,169 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="card-deck px-2">
+                                    <div class="card b-lightgray border-0 border-radius-30">
+                                        <div class="card-head p-1">
+                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
+                                        </div>
+                                        <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
+                                            <div class="px-3">
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
+                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2658,28 +2811,26 @@
             </div>
         </div>
     </div>
-    <div class="container custom-container">
+    <div class="container custom-container mt-2">
         <div class="row">
             <div class="slider col-xl-12 px-0 mt-3">
-                <!--                <div class="slider-title px-5 mb-3">-->
-                <!--                    <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Best Viewevd Product</h2>-->
-                <!--                </div>-->
-                <div class="d-flex">
-                    <div class="col-xl-2 pl-0 d-flex">
-                        <div class="bgc-gallery slider-sidebar-title border-radius-bottom-65 d-flex justify-content-center align-items-center">
-                            <h3 class="f-45 color-navy px-4 text-transform-capitalize">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 pl-2 pl-md-0 d-flex">
+                        <div class="bgc-gallery slider-sidebar-title border-radius-bottom-65 d-flex justify-content-center align-items-center py-3 py-md-0 mb-3 mb-md-0">
+                            <h3 class="f-45 color-navy px-5 mb-0">
                                 new product
                             </h3>
                         </div>
                     </div>
-                    <div class="col-xl-10 px-0 d-flex" data-slider
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 px-5 px-md-0 d-flex" data-slider
                          data-disable-number="5"
-                         data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="5"
+                         data-disable-number-xxs="1" data-disable-number-xs="1"
+                         data-disable-number-s="1" data-disable-number-m="2" data-disable-number-xl="5"
                          data-items-nav="false"
                          data-loop="false" data-fade="false"
                          data-cell-align="left">
                         <ul class="slider this-slider w-100">
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2706,7 +2857,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2733,7 +2884,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2760,7 +2911,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2787,7 +2938,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2814,7 +2965,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2841,7 +2992,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2868,7 +3019,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -2909,202 +3060,254 @@
     </div>
     <div class="container custom-container mt-2">
         <div class="row">
-            <div class="row">
-                <div class="mt-5 mb-5 col-xl-4">
-                    <a href="#" class="border-radius-50 overflow-hidden d-flex">
-                        <img class="w-100" src="assets/images/ad-banners/banner-2.jpg" alt="banner-1">
-                    </a>
-                </div>
-                <div class="mt-5 mb-5 col-xl-4">
-                    <a href="#" class="border-radius-50 overflow-hidden d-flex">
-                        <img class="w-100" src="assets/images/ad-banners/banner-3.png" alt="banner-1">
-                    </a>
-                </div>
-                <div class="mt-5 mb-5 col-xl-4">
-                    <a href="#" class="border-radius-50 overflow-hidden d-flex">
-                        <img class="w-100" src="assets/images/ad-banners/banner-4.png" alt="banner-1">
-                    </a>
-                </div>
+            <div class="mt-5 mb-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <a href="#" class="border-radius-50 overflow-hidden d-flex">
+                    <img class="w-100" src="assets/images/ad-banners/banner-2.jpg" alt="banner-1">
+                </a>
+            </div>
+            <div class="mt-5 mb-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <a href="#" class="border-radius-50 overflow-hidden d-flex">
+                    <img class="w-100" src="assets/images/ad-banners/banner-3.png" alt="banner-1">
+                </a>
+            </div>
+            <div class="mt-5 mb-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <a href="#" class="border-radius-50 overflow-hidden d-flex">
+                    <img class="w-100" src="assets/images/ad-banners/banner-4.png" alt="banner-1">
+                </a>
             </div>
         </div>
     </div>
     <div class="container custom-container">
         <div class="row">
             <div class="slider col-xl-12 px-0 mt-3">
-                <!--                <div class="slider-title px-5 mb-3">-->
-                <!--                    <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Best Viewevd Product</h2>-->
-                <!--                </div>-->
-                <div class="d-flex">
-                    <div class="col-xl-2 pl-0 d-flex">
-                        <div class="bgc-gallery slider-sidebar-title border-radius-top-65 d-flex justify-content-center align-items-center">
-                            <h3 class="f-45 color-navy px-4">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 pl-2 pl-md-0 d-flex">
+                        <div class="bgc-gallery slider-sidebar-title border-radius-top-65 d-flex justify-content-center align-items-center py-3 py-md-0 mb-3 mb-md-0">
+                            <h3 class="f-45 color-navy px-5 mb-0 text-transform-capitalize">
                                 OEM
                                 Product
                             </h3>
                         </div>
                     </div>
-                    <div class="col-xl-10 px-0 d-flex" data-slider
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 px-5 px-md-0 d-flex" data-slider
                          data-disable-number="5"
-                         data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="5"
+                         data-disable-number-xxs="1" data-disable-number-xs="1"
+                         data-disable-number-s="1" data-disable-number-m="2" data-disable-number-xl="5"
                          data-items-nav="false"
                          data-loop="false" data-fade="false"
                          data-cell-align="left">
                         <ul class="slider this-slider w-100">
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
                                             <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
+                                            <a href="#"
+                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
+                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
+                                            </a>
                                         </div>
                                         <div class="card-body p-0 py-3">
+                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
+                                                <p>
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    TOYOTA
-                                                </p>
+                                                <div class="price text-right">
+                                                <span class="text-muted">
+                                                    <s>$80</s>
+                                                </span>
+                                                    <span class="color-navy f-20">$56</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -3125,25 +3328,23 @@
     <div class="container custom-container mt-4">
         <div class="row">
             <div class="slider col-xl-12 px-0 mt-3">
-                <!--                <div class="slider-title px-5 mb-3">-->
-                <!--                    <h2 class="text-transform-capitalize font-family-mina font-weight-lighter f-35">Best Viewevd Product</h2>-->
-                <!--                </div>-->
-                <div class="d-flex">
-                    <div class="col-xl-2 pl-0 d-flex">
-                        <div class="bgc-navy slider-sidebar-title border-radius-left-65 d-flex justify-content-center align-items-center">
-                            <h3 class="f-45 color-white px-4 text-transform-capitalize">
-                                stock product
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 pl-2 pl-md-0 d-flex">
+                        <div class="bgc-navy slider-sidebar-title border-radius-left-65 d-flex justify-content-center align-items-center py-3 py-md-0 mb-3 mb-md-0">
+                            <h3 class="f-45 color-white px-5 mb-0">
+                                new product
                             </h3>
                         </div>
                     </div>
-                    <div class="col-xl-10 px-0 d-flex" data-slider
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 px-5 px-md-0 d-flex" data-slider
                          data-disable-number="5"
-                         data-disable-number-s="1" data-disable-number-m="1" data-disable-number-xl="5"
+                         data-disable-number-xxs="1" data-disable-number-xs="1"
+                         data-disable-number-s="1" data-disable-number-m="2" data-disable-number-xl="5"
                          data-items-nav="false"
                          data-loop="false" data-fade="false"
                          data-cell-align="left">
                         <ul class="slider this-slider w-100">
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3157,7 +3358,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3170,7 +3371,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3184,7 +3385,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3197,7 +3398,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3211,7 +3412,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3224,7 +3425,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3238,7 +3439,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3251,7 +3452,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3265,7 +3466,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3278,7 +3479,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3292,7 +3493,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3305,7 +3506,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3319,7 +3520,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3332,7 +3533,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="item px-0 product-box col-xl-3">
+                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck px-2">
                                     <div class="card b-lightgray border-0 border-radius-30">
                                         <div class="card-head p-1">
@@ -3346,61 +3547,7 @@
                                             <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
                                             <div class="px-3">
                                                 <p>
-                                                    Hand engine
-                                                </p>
-                                                <div class="price text-right">
-                                                <span class="text-muted">
-                                                    <s>$80</s>
-                                                </span>
-                                                    <span class="color-navy f-20">$56</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p>
-                                                    Hand engine
-                                                </p>
-                                                <div class="price text-right">
-                                                <span class="text-muted">
-                                                    <s>$80</s>
-                                                </span>
-                                                    <span class="color-navy f-20">$56</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p>
-                                                    Hand engine
+                                                    Hand engine Hand engine Hand engine Hand engine
                                                 </p>
                                                 <div class="price text-right">
                                                 <span class="text-muted">
@@ -3426,6 +3573,114 @@
         </div>
     </div>
 </main>
+
+<!----------- footer ----------->
+<footer class="bg-seashell pt-5 pb-0 mt-5 flex-column d-flex bgc-navy">
+    <div class="container custom-container d-flex flex-md-row flex-wrap">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-wrap mb-4">
+            <div class="footer-logo"></div>
+            <div class="address mt-auto">
+                <div class="address-head">
+                    <h5 class="f-35 color-white">Hello Spare parts</h5>
+                </div>
+                <ul class="bg-froly border-radius-50 footer-sidebar-right address-main mb-0">
+                    <li class="d-flex color-white mb-1">
+                        <h6 class="f-20 font-weight-lighter mb-0">Japan . Tokyo</h6>
+                    </li>
+                    <li class="d-flex color-white mb-1">
+                        <h6 class="f-20 font-weight-lighter mb-0">+989190657595</h6>
+                    </li>
+                    <li class="d-flex color-white mb-1">
+                        <h6 class="f-20 font-weight-lighter mb-0">+982532804326</h6>
+                    </li>
+                    <li class="d-flex color-white mb-1">
+                        <a href="" class="f-20 font-weight-lighter color-white d-inline-flex line-height-1">info@hspjapan.com</a>
+                    </li>
+                    <li class="d-flex color-white mb-1">
+                        <a href="" class="f-20 font-weight-lighter color-white d-inline-flex line-height-1">sup@hspjapan.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sidebar-left px-4 mb-4">
+            <div class="footer-content-title">
+                <h5 class="f-25 color-white font-weight-light">Find Part</h5>
+            </div>
+            <ul class="footer-content mb-0">
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Engine & Components</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Transmission & Drivetrain</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Suspension & Components</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Lightings</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Computers & Sensors</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Chassis</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Body Parts</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Door Parts</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Car Electronics</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Cooling Components</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Electrical Parts</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">All Items</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sidebar-left px-4 mb-4">
+            <div class="footer-content-title">
+                <h5 class="f-25 color-white font-weight-light">About</h5>
+            </div>
+            <ul class="footer-content mb-0">
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Company Profile</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">BF FACTORY</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Privacy Policies</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Privacy Policies</a>
+                </li>
+                <li>
+                    <a href="" class="mt-1 d-inline-block f-20 color-white">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sidebar-left px-4 mb-4">
+            <h4 class="f-25 font-weight-lighter color-white">We Are Here</h4>
+            <div class="map-image-main overflow-hidden">
+                <img class="w-100" src="assets/images/map.jpg" alt="map-image">
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer w-100 text-center bg-mercury py-3 mt-3 mt-lg-0 bgc-comet">
+        <h5 class="m-0 font-size-12 color-white">
+            Copyright 2020 Hello Spare Parts CO.,LTD. All rights reserved.
+        </h5>
+    </div>
+</footer>
+
 <!------ modals ------->
 <div class="modal fade login-popup" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
@@ -3485,6 +3740,9 @@
         </div>
     </div>
 </div>
+
+<!--black page from menu small-->
+<div class="black-page"></div>
 <script src="assets/js/plugins/jquery/jquery-3.3.1.min.js"></script>
 <script src="assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
 <script src="assets/js/plugins/flickity/flickity.pkgd.min.js"></script>

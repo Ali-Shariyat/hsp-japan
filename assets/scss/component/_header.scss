@@ -1,4 +1,7 @@
 header {
+  @include media-query("(max-width: 991px)"){
+    height: 42px;
+  }
   .header-big {
     .header-item {
       .header-item-head {
@@ -73,6 +76,37 @@ header {
       left: 0;
       top: 50%;
       @include transition(all .2s ease);
+    }
+  }
+
+  .header-small{
+    z-index: 5;
+  }
+  .menu-items {
+    z-index: 1003;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    background-color: #272727;
+    transition: all .5s;
+    overflow-y: scroll;
+    //.close-menu > .far {
+    //  font-size: $f-26;
+    //}
+    ul {
+      width: 100%;
+      padding: 15px;
+      &.menu-down {
+        display: none;
+        li {
+          @include media-query(LB) {
+            color: $color-white;
+            padding: 0;
+            font-size: 14px;
+            margin-bottom: 5px;
+          }
+        }
+      }
     }
   }
 }

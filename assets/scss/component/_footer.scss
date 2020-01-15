@@ -1,0 +1,24 @@
+footer {
+  //border-top: 3px solid $color-coral-red;
+  .footer-sidebar-right {
+    li {
+      i {
+        min-width: 41px;
+        text-align: center;
+      }
+    }
+  }
+  .footer-content-title {
+    border-bottom: 3px solid $color-white;
+  }
+  .footer-content {
+    a {
+      &:hover {
+        //color: $color-coral-red;
+      }
+    }
+  }
+  .map-image-main{
+    border-radius: 0 65px 65px 65px;
+  }
+}
