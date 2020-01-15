@@ -35,6 +35,9 @@ a {
   &:hover {
     color: $color-orange;
     text-decoration: none;
+    img{
+      opacity: 0.8;
+    }
   }
 }
 
@@ -58,6 +61,10 @@ body {
 }
 
 //==========================================
+// box shadows
+//==========================================
+
+//==========================================
 //text decoration
 //==========================================
 .text-decoration-underline{
@@ -70,8 +77,28 @@ body {
   border-radius: 18px;
 }
 
+.border-radius-30 {
+  border-radius: 30px;
+}
+
 .border-radius-50 {
-  border-radius: 50px;
+  border-radius: 50px !important;
+}
+
+.border-radius-top-65 {
+  border-radius: 65px 0 0 0;
+}
+
+.border-radius-right-65 {
+  border-radius: 0 65px 0 0;
+}
+
+.border-radius-left-65 {
+  border-radius: 0 0 0 65px;
+}
+
+.border-radius-bottom-65 {
+  border-radius: 0 0 65px 0;
 }
 
 //==========================================
@@ -110,6 +137,10 @@ body {
   color: $color-white;
 }
 
+.color-white-blur-5 {
+  color: $color-white-blur-5;
+}
+
 .color-gray-2 {
   color: $color-gray-2;
 }
@@ -122,15 +153,58 @@ body {
   color: $color-white-8;
 }
 
+.color-green {
+  color: $color-green;
+}
+
 //==========================================
 //background colors
 //==========================================
+.bgc-transparent {
+  background-color: $color-transparent;
+}
+
+.bgc-navy {
+  background-color: $color-navy;
+}
 .bgc-storm-gray {
   background-color: $color-storm-gray;
 }
 
+.bgc-white {
+  background-color: $color-white;
+}
+
+.bgc-white-blur-3 {
+  background-color: $color-white-blur-3;
+}
+
 .bgc-white-8 {
   background-color: $color-white-8;
+}
+
+.bgc-white-blur-5 {
+  background-color: $color-white-blur-5;
+}
+
+.bgc-gray {
+  background-color: $color-gray;
+}
+
+.bgc-gallery {
+  background-color: $color-gallery;
+}
+
+.bgc-green {
+  background-color: $color-green;
+}
+
+.bgc-orange {
+  background-color: $color-orange;
+}
+
+.bgc-el-salva {
+  background-color: $color-el-salva;
 }
 
 //==========================================
@@ -194,6 +268,18 @@ body {
 
 .icon-font-current::before {
   content: "\f114";
+}
+
+.icon-font-chevron-left::before {
+  content: "\f115";
+}
+
+.icon-font-chevron-down::before {
+  content: "\f116";
+}
+
+.icon-font-chevron-up::before {
+  content: "\f117";
 }
 
 //==========================================
