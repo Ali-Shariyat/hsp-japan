@@ -1,0 +1,21 @@
+.rating{
+  .br-widget {
+    display: flex;
+    a{
+      width: 34px;
+      height: 34px;
+      &::before{
+        content: "\F105";
+        font-family: icon-font, serif, sans-serif, cursive, fantasy, monospace;
+        font-size: 26px;
+        color: $color-gray;
+      }
+      &.br-selected,
+      &.br-active{
+        &::before{
+          color: $color-broom;
+        }
+      }
+    }
+  }
+}

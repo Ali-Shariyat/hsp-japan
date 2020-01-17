@@ -1,0 +1,29 @@
+.spinner-parent{
+  box-shadow: 0 3px 6px rgba(46, 125, 50, 0.35);
+  @include media-query("(max-width: 767px) and (min-width:384px)") {
+    margin-bottom: 0 !important;
+  }
+  input{
+    width: 40px;
+    border: none;
+    outline: none;
+    @include media-query("(max-width: 767px)") {
+      font-size: 18px;
+      padding-bottom: 4px;
+    }
+  }
+  button{
+    border: none;
+    background-color: $color-gray;
+    padding: 0 20px 6px 20px;
+    font-size: 35px;
+    outline: none;
+    @include media-query("(max-width: 767px)") {
+      padding: 0 20px 0px 20px;
+      font-size: 18px;
+    }
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}

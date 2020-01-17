@@ -11,6 +11,9 @@
             font-size: 14px;
             border: 0;
             position: relative;
+            &.custom-box-shadow{
+                box-shadow: 0 3px 6px $color-green-blur-35;
+            }
 
             i {
                 width: 35px;
