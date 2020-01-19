@@ -1951,15 +1951,6 @@ header .menu-items ul.menu-down {
   left: calc(50% + 30px);
 }
 
-.purchase-parent > .row svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #000;
-  width: 40%;
-  bottom: 0;
-}
-
 .warranty-icon {
   font-size: 18px;
 }
@@ -2017,10 +2008,65 @@ header .menu-items ul.menu-down {
 }
 .purchase .purchase-main textarea {
   min-height: 170px;
+  max-height: 350px;
 }
 .purchase .purchase-main input,
 .purchase .purchase-main textarea {
   box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.purchase .purchase-main .edit-form {
+  border: 3px solid #B0B0B0;
+}
+.purchase .purchase-main .edit-form.disabled {
+  visibility: hidden;
+}
+
+.form-progress .progress-item .progress-item-timeline {
+  height: 5px;
+  width: 100%;
+}
+.form-progress .progress-item .progress-item-timeline span, .form-progress .progress-item .progress-item-timeline::after {
+  content: "";
+  position: absolute;
+  background-color: #e8e8e8;
+}
+.form-progress .progress-item .progress-item-timeline::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.form-progress .progress-item .progress-item-timeline span {
+  width: 18px;
+  height: 18px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  outline: 6px solid #f4f6f6;
+}
+.form-progress .progress-item:first-child .progress-item-timeline::after {
+  left: 50%;
+}
+.form-progress .progress-item:last-child .progress-item-timeline::after {
+  right: 50%;
+}
+.form-progress .progress-item.passed .progress-item-timeline span, .form-progress .progress-item.passed .progress-item-timeline::after, .form-progress .progress-item.active .progress-item-timeline span, .form-progress .progress-item.active .progress-item-timeline::after {
+  background-color: #6F7184;
+}
+.form-progress .progress-item.active .progress-item-timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #e8e8e8;
+  z-index: 1;
+}
+.form-progress .progress-item:last-child .progress-item-timeline::before {
+  display: none;
 }
 
 footer .footer-sidebar-right li i {

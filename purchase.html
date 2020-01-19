@@ -1915,13 +1915,8 @@
     <div class="container-fluid position-relative">
         <div class="container custom-container purchase-parent">
             <div class="row">
-                <svg width="195pt" height="100%" viewBox="0 0 195 201" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                        <path fill="#000000" opacity="1.00" d=" M 0.00 0.00 L 195.00 0.00 L 195.00 201.00 L 0.00 201.00 L 0.00 0.00 Z" />
-                    </g>
-                </svg>
                 <div class="purchase w-100 mt-5 d-flex">
-                    <div class="purchase-sidebar bgc-navy col-xl-4 position-relative d-flex flex-wrap flex-column pt-4 px-5">
+                    <div class="purchase-sidebar bgc-navy col-xl-4 position-relative d-flex flex-wrap flex-column pt-4 px-5 border-radius-50">
                         <h2 class="text-transform-capitalize text-center color-white mb-0">cart :</h2>
                         <div class="vertical-slider pb-5 mb-5">
                             <div id="va-accordion" class="va-container">
@@ -2152,15 +2147,37 @@
                             </div>
                         </div>
                     </div>
-                    <div class="purchase-main col-xl-8">
-                        <div class="b-lightgray">
+                    <div class="purchase-main col-xl-8 pl-5">
+                        <div class="b-lightgray border-radius-50 px-4">
+                            <div class="form-progress d-flex justify-content-center">
+                                <ul class="mb-0 pb-2 pt-4 d-inline-flex">
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 active">
+                                        <span class="px-3 pb-3">Address</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                        <span class="px-3 pb-3">Pay & Ship</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                        <span class="px-3 pb-3">Factor</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                             <form action="" class="needs-validation" novalidate>
-                                <div class="form-group d-flex flex-wrap">
+                                <div class="form-group d-flex flex-wrap mb-0">
                                     <div class="col-md-6 mb-4">
                                         <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
                                                for="name-val-2">name</label>
-                                        <input id="name-val-2" class="mb-0 w-100 border-radius-50 form-control border-0"
-                                               placeholder="" type="text" name="text" required>
+                                        <input id="name-val-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="ali" type="text" name="text" disabled required>
 
                                         <div class="invalid-feedback mt-2">
                                             <div class="d-flex align-items-center">
@@ -2172,8 +2189,8 @@
                                     <div class="col-md-6 mb-4">
                                         <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
                                                for="name-val-3">family</label>
-                                        <input id="name-val-3" class="mb-0 w-100 border-radius-50 form-control border-0"
-                                               placeholder="" type="text" name="text" required>
+                                        <input id="name-val-3" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="rohol" type="text" name="text" disabled required>
 
                                         <div class="invalid-feedback mt-2">
                                             <div class="d-flex align-items-center">
@@ -2184,9 +2201,9 @@
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="password-2">password</label>
-                                        <input id="password-2" class="mb-0 w-100 border-radius-50 form-control border-0"
-                                               placeholder="" type="password" name="text" required>
+                                               for="password-2">Phone number</label>
+                                        <input id="password-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="989190657595" type="number" name="text" disabled required>
 
                                         <div class="invalid-feedback mt-2">
                                             <div class="d-flex align-items-center">
@@ -2198,8 +2215,8 @@
                                     <div class="col-md-6 mb-4">
                                         <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
                                                for="name-val-4">country</label>
-                                        <input id="name-val-4" class="mb-0 w-100 border-radius-50 form-control border-0"
-                                               placeholder="" type="text" name="text" required>
+                                        <input id="name-val-4" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="iran" type="text" name="text" disabled required>
 
                                         <div class="invalid-feedback mt-2">
                                             <div class="d-flex align-items-center">
@@ -2211,8 +2228,8 @@
                                     <div class="col-md-12 mb-4">
                                         <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
                                                for="name-val-5">country</label>
-                                        <textarea id="name-val-5" class="mb-0 w-100 border-radius-30 form-control border-0 px-4 pt-3"
-                                                  placeholder="" type="text" name="text" required></textarea>
+                                        <textarea id="name-val-5" class="mb-0 w-100 border-radius-30 form-control border-0 px-4 pt-3" data-switch-disabled
+                                                  placeholder="" type="text" name="text" disabled required>11 , Ap4 , 4th Alley , HamedNejad ST , 22 Bahman St , Pardisan Town , Qom , Iran</textarea>
 
                                         <div class="invalid-feedback mt-2">
                                             <div class="d-flex align-items-center">
@@ -2221,14 +2238,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="text-center my-4">
-                                        <span class="color-white-8 f-16">You don’t have account? </span>
-                                        <a href="" class="text-decoration-underline f-16 color-white-8">Sign up</a>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="" class="text-decoration-underline f-16 color-white-8">Forget password?</a>
-                                        <button class="btn btn-primary border-radius-50 bgc-white-8 border-0 color-black px-5 text-transform-capitalize font-weight-bold"
-                                                type="submit">login
+                                    <div class="d-flex justify-content-center align-items-center w-100 mb-4">
+                                        <button class="btn border-radius-50 color-white px-3 f-16 text-transform-capitalize mr-3 edit-form color-silver-chalice">edit
+                                        </button>
+                                        <button class="btn border-radius-50 bgc-green border-0 color-white px-2 f-18 text-transform-capitalize"
+                                                type="submit">Confirm
                                         </button>
                                     </div>
                                 </div>
@@ -2420,27 +2434,5 @@
 <script src="assets/js/plugins/asf/jquery.mousewheel.js"></script>
 <script src="assets/js/plugins/asf/jquery.vaccordion.js"></script>
 <script src="assets/js/main.js"></script>
-
-<script>
-
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function () {
-        'use strict';
-        window.addEventListener('load', function () {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function (form) {
-                form.addEventListener('submit', function (event) {
-                    if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        }, false);
-    })();
-</script>
 </body>
 </html>
