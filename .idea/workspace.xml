@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/asf/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/asf/jquery.mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/asf/jquery.vaccordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/jquery/jquery-1.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/purchase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <workItem from="1578847287477" duration="678000" />
       <workItem from="1578990342232" duration="85496000" />
       <workItem from="1579333073962" duration="3796000" />
-      <workItem from="1579416630662" duration="18744000" />
+      <workItem from="1579416630662" duration="21561000" />
     </task>
     <servers />
   </component>
