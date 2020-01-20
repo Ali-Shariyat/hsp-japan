@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins/flickity/flickity.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nice-number/jquery.nice-number.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/nice-number/jquery.nice-number.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/scrollbar/jquery.scrollbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>hsp japan</title>
     <meta charset="utf-8">
@@ -1915,240 +1916,17 @@
     <div class="container-fluid position-relative">
         <div class="container custom-container purchase-parent">
             <div class="row">
-                <div class="purchase w-100 mt-5 d-flex">
-                    <div class="purchase-sidebar bgc-navy col-xl-4 position-relative d-flex flex-wrap flex-column pt-4 px-5 border-radius-50">
-                        <h2 class="text-transform-capitalize text-center color-white mb-0">cart :</h2>
-                        <div class="vertical-slider pb-5 mb-5">
-                            <div id="va-accordion" class="va-container">
-                                <div class="va-wrapper">
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="va-slice va-slice-1 product-box" data-main-close>
-                                        <div class="product-check-out mt-3">
-                                            <div class="card mb-3 px-3 b-lightgray border-0">
-                                                <div class="row no-gutters">
-                                                    <div class="col-lg-4 d-flex">
-                                                        <div class="card-img d-flex align-self-center text-center p-2">
-                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="card-body px-3 py-3 border-radius-50">
-                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
-                                                            <div>
-                                                                <i class="icon-font-category f-12 color-navy"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
-                                                            </div>
-                                                            <div class="mb-1">
-                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
-                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
-                                                            </div>
-                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="close d-flex justify-content-center align-items-center" data-close>
-                                                    <i class="icon-font-close f-6"></i>
-                                                </div>
-                                            </div>
-                                            <div class="add-low d-flex justify-content-center">
-                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                                                    <input type="number" data-number-spinner value="1" min="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="va-nav d-flex justify-content-center align-items-center pt-4 pb-0">
-                                    <div class="va-nav-next bgc-white">
-                                        <div class="d-flex justify-content-center align-items-center h-100">
-                                            <i class="icon-font-chevron-down f-8 color-chestnut-rose"></i>
-                                        </div>
-                                    </div>
-                                    <div class="va-nav-prev bgc-white">
-                                        <div class="d-flex justify-content-center align-items-center h-100">
-                                            <i class="icon-font-chevron-up f-8 color-chestnut-rose"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="purchase w-100 mt-5 d-flex flex-wrap flex-md-row">
+                    <div class="purchase-sidebar bgc-navy col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 position-relative d-flex pt-4 px-5 border-radius-50 mb-4 mb-md-0">
+                        <div class="text-center w-100" data-sticky-to-top>
+                            <div data-sticky-main class="pb-4">
+                                <h4 class="color-white-blur-5">Factor Code:</h4>
+                                <h2 class="color-white">FR4510287</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="purchase-main col-xl-8 pl-5">
-                        <div class="b-lightgray border-radius-50 px-4">
+                    <div class="purchase-main col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 pl-2 pl-md-3 pl-lg-5 d-flex">
+                        <div class="b-lightgray border-radius-50 px-4 w-100">
                             <div class="form-progress d-flex justify-content-center">
                                 <ul class="mb-0 pb-2 pt-4 d-inline-flex">
                                     <li class="progress-item position-relative d-inline-flex flex-column pb-3 active">
@@ -2172,78 +1950,115 @@
                                 </ul>
                             </div>
                             <form action="" class="needs-validation" novalidate>
+                                <h5 class="text-transform-capitalize font-family-mina f-25 px-4">Factor:</h5>
                                 <div class="form-group d-flex flex-wrap mb-0">
-                                    <div class="col-md-6 mb-4">
-                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="name-val-2">name</label>
-                                        <input id="name-val-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
-                                               placeholder="" value="ali" type="text" name="text" disabled required>
-
-                                        <div class="invalid-feedback mt-2">
-                                            <div class="d-flex align-items-center">
-                                                <i class="icon-font-warning f-14"></i>
-                                                <span class="f-12 pl-2">Username already registered</span>
-                                            </div>
+                                    <div class="d-flex flex-wrap w-100 bgc-white px-4 pt-2 pb-3 border-radius-50">
+                                        <div class="w-100" data-scrollbar>
+                                            <table class="table factor-table w-100">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col"
+                                                        class="text-transform-capitalize text-left color-chestnut-rose pl-0">
+                                                        <span>code</span>
+                                                    </th>
+                                                    <th scope="col"
+                                                        class="text-transform-capitalize text-left color-chestnut-rose">
+                                                        <span>name</span>
+                                                    </th>
+                                                    <th scope="col"
+                                                        class="text-transform-capitalize text-left color-chestnut-rose">
+                                                        <span>number</span>
+                                                    </th>
+                                                    <th scope="col"
+                                                        class="text-transform-capitalize text-left color-chestnut-rose">
+                                                        <span>price</span>
+                                                    </th>
+                                                    <th scope="col"
+                                                        class="text-transform-capitalize text-center color-chestnut-rose">
+                                                        <span>Total Price</span>
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td class="text-left pl-0">
+                                                        <span>1442</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <a href="" class="color-black">Product Name</a>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>1</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                    <td class="text-center custom-border-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left pl-0">
+                                                        <span>1442</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <a href="" class="color-black">Product Name</a>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>1</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                    <td class="text-center custom-border-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left pl-0">
+                                                        <span>1442</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <a href="" class="color-black">Product Name</a>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>1</span>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                    <td class="text-center custom-border-left">
+                                                        <span>$49</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left border-0 pl-0">
+                                                        <span></span>
+                                                    </td>
+                                                    <td class="text-left border-0">
+                                                        <span></span>
+                                                    </td>
+                                                    <td class="text-left border-0">
+                                                        <span></span>
+                                                    </td>
+                                                    <td class="text-left border-0">
+                                                        <span></span>
+                                                    </td>
+                                                    <td class="text-center border-0">
+                                                        <span>$147</span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-4">
-                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="name-val-3">family</label>
-                                        <input id="name-val-3" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
-                                               placeholder="" value="rohol" type="text" name="text" disabled required>
-
-                                        <div class="invalid-feedback mt-2">
-                                            <div class="d-flex align-items-center">
-                                                <i class="icon-font-warning f-14"></i>
-                                                <span class="f-12 pl-2">Username already registered</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="password-2">Phone number</label>
-                                        <input id="password-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
-                                               placeholder="" value="989190657595" type="number" name="text" disabled required>
-
-                                        <div class="invalid-feedback mt-2">
-                                            <div class="d-flex align-items-center">
-                                                <i class="icon-font-warning f-14"></i>
-                                                <span class="f-12 pl-2">invalid password</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="name-val-4">country</label>
-                                        <input id="name-val-4" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
-                                               placeholder="" value="iran" type="text" name="text" disabled required>
-
-                                        <div class="invalid-feedback mt-2">
-                                            <div class="d-flex align-items-center">
-                                                <i class="icon-font-warning f-14"></i>
-                                                <span class="f-12 pl-2">Username already registered</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 mb-4">
-                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
-                                               for="name-val-5">country</label>
-                                        <textarea id="name-val-5" class="mb-0 w-100 border-radius-30 form-control border-0 px-4 pt-3" data-switch-disabled
-                                                  placeholder="" type="text" name="text" disabled required>11 , Ap4 , 4th Alley , HamedNejad ST , 22 Bahman St , Pardisan Town , Qom , Iran</textarea>
-
-                                        <div class="invalid-feedback mt-2">
-                                            <div class="d-flex align-items-center">
-                                                <i class="icon-font-warning f-14"></i>
-                                                <span class="f-12 pl-2">Username already registered</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-center align-items-center w-100 mb-4">
-                                        <button class="btn border-radius-50 color-white px-3 f-16 text-transform-capitalize mr-3 edit-form color-silver-chalice">edit
-                                        </button>
-                                        <button class="btn border-radius-50 bgc-green border-0 color-white px-2 f-18 text-transform-capitalize"
-                                                type="submit">Confirm
-                                        </button>
+                                    <div class="purchase-table-tools d-flex justify-content-end w-100 px-3 pt-4 pb-5">
+                                        <a href="" class="btn border-radius-50 bgc-navy d-flex justify-content-center align-items-center color-white ml-2 pr-3">
+                                            <i class="icon-font-share"></i>
+                                        </a>
+                                        <a href="" class="btn border-radius-50 bgc-green d-flex justify-content-center align-items-center color-white ml-2">
+                                            <i class="icon-font-print"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </form>
@@ -2426,13 +2241,16 @@
 <!--black page from menu small-->
 <div class="black-page"></div>
 <script src="assets/js/plugins/jquery/jquery-3.3.1.min.js"></script>
-<script src="assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.bundle.js"></script>
 <script src="assets/js/plugins/flickity/flickity.pkgd.min.js"></script>
 <script src="assets/js/plugins/flickity/flickity-fade.js"></script>
 <script src="assets/js/plugins/nice-number/jquery.nice-number.js"></script>
-<script src="assets/js/plugins/asf/jquery.easing.1.3.js"></script>
-<script src="assets/js/plugins/asf/jquery.mousewheel.js"></script>
-<script src="assets/js/plugins/asf/jquery.vaccordion.js"></script>
+<script src="assets/js/plugins/vaccordion/jquery.easing.1.3.js"></script>
+<script src="assets/js/plugins/vaccordion/jquery.mousewheel.js"></script>
+<script src="assets/js/plugins/vaccordion/jquery.vaccordion.js"></script>
+<script src="assets/js/plugins/sticky/ResizeSensor.js"></script>
+<script src="assets/js/plugins/sticky/jquery.sticky-sidebar.js"></script>
+<script src="assets/js/plugins/scrollbar/jquery.scrollbar.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

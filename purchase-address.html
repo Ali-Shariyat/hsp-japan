@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins/flickity/flickity.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins/css-stars.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins/nice-number/jquery.nice-number.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>hsp japan</title>
@@ -1913,818 +1912,377 @@
     </div>
 </header>
 <main class="">
-    <div class="container custom-container">
-        <div class="row">
-            <div class="product-slider col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 mt-5">
-                <div class="product-slider-main" data-slider
-                     data-disable-number="1"
-                     data-disable-number-xxs="1" data-disable-number-xs="1" data-disable-number-s="1"
-                     data-disable-number-m="1" data-disable-number-xl="1"
-                     data-items-nav="false"
-                     data-autoPlay="4000" data-pauseAutoPlayOnHover="true" data-loop="false" data-fade="true"
-                     data-cell-align="left">
-                    <ul class="slider this-slider w-100">
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
+    <div class="container-fluid position-relative">
+        <div class="container custom-container purchase-parent">
+            <div class="row">
+                <div class="purchase w-100 mt-5 d-flex flex-wrap flex-md-row">
+                    <div class="purchase-sidebar bgc-navy col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 position-relative d-flex flex-wrap flex-column pt-4 px-3 px-md-5 border-radius-50  mb-4 mb-md-0">
+                        <h2 class="text-transform-capitalize text-center color-white mb-0">cart :</h2>
+                        <div class="vertical-slider pb-5 mb-5 position-relative">
+                            <div class="product-box item-get-height" data-main-close>
+                                <div class="product-check-out mt-3">
+                                    <div class="card mb-3 px-3 b-lightgray border-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-4 d-flex">
+                                                <div class="card-img d-flex align-self-center text-center p-2">
+                                                    <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="card-body px-3 py-3 border-radius-50">
+                                                    <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                    <div>
+                                                        <i class="icon-font-category f-12 color-navy"></i>
+                                                        <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                    </div>
+                                                    <div class="mb-1">
+                                                        <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                        <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                    </div>
+                                                    <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="close d-flex justify-content-center align-items-center" data-close>
+                                            <i class="icon-font-close f-6"></i>
+                                        </div>
+                                    </div>
+                                    <div class="add-low d-flex justify-content-center">
+                                        <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                            <input type="number" data-number-spinner value="1" min="1">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
+                            <div id="va-accordion" class="va-container">
+                                <div class="va-wrapper">
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-1 product-box" data-main-close>
+                                        <div class="product-check-out mt-3">
+                                            <div class="card mb-3 px-3 b-lightgray border-0">
+                                                <div class="row no-gutters">
+                                                    <div class="col-lg-4 d-flex">
+                                                        <div class="card-img d-flex align-self-center text-center p-2">
+                                                            <img src="assets/images/slider/slider-1.png" class="" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8">
+                                                        <div class="card-body px-3 py-3 border-radius-50">
+                                                            <h6 class="card-title color-navy mb-1 f-18">Product name</h6>
+                                                            <div>
+                                                                <i class="icon-font-category f-12 color-navy"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Category</span>
+                                                            </div>
+                                                            <div class="mb-1">
+                                                                <i class="warranty-icon f-12 color-navy position-relative"></i>
+                                                                <span class="text-transform-capitalize f-14 color-navy">Warranty</span>
+                                                            </div>
+                                                            <span class="bgc-white color-sea-green f-14 px-2 py-1 border-radius-50 font-weight-bold">Price $40</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="close d-flex justify-content-center align-items-center" data-close>
+                                                    <i class="icon-font-close f-6"></i>
+                                                </div>
+                                            </div>
+                                            <div class="add-low d-flex justify-content-center">
+                                                <div class="d-flex justify-content-between spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
+                                                    <input type="number" data-number-spinner value="1" min="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-1.png" alt="slider-1">
-                        </li>
-                        <li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
-                            <div class="slider btn-tools position-absolute">
-                                <div class="slider2 d-flex">
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none mr-1">
-                                        <i class="icon-font-share f-20"></i>
-                                    </a>
-                                    <a href="#"
-                                       class="gheart bgc-gray d-flex justify-content-center align-items-center text-decoration-none ml-1">
-                                        <i class="icon-font-heart-like f-20"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <img class="w-100 border-radius-50 overflow-hidden position-relative"
-                                 src="assets/images/slider/slider-2.png" alt="slider-1">
-                        </li>
-                    </ul>
-                </div>
-                <div class="product-slider-nav slider d-flex mt-3 px-4" data-slider
-                     data-disable-number="1"
-                     data-disable-number-custom-l="3"
-                     data-disable-number-xxs="2" data-disable-number-xs="2" data-disable-number-s="2"
-                     data-disable-number-m="4" data-disable-number-xl="4"
-                     data-nav-select=".product-slider-main .this-slider"
-                     data-items-nav="false"
-                     data-loop="false" data-fade="false"
-                     data-cell-align="left">
-                    <ul class="this-slider d-flex mb-0 px-0 d-flex">
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-1.png" alt="slider-1">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-1.png" alt="slider-1">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-1.png" alt="slider-1">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-1.png" alt="slider-1">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                        <li class="item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 px-2">
-                            <div class="border-radius-18 cursor-pointer overflow-hidden p-1">
-                                <img class="w-100" src="assets/images/slider/slider-2.png" alt="slider-2">
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="px-2 eq-stop product-slider-more-slider d-flex static-banner order-1">
-                        <div class="border-radius-18 cursor-pointer overflow-hidden w-100 text-center d-flex">
-                            <a data-toggle="modal" data-target="#product-slider-popUp" href="#"
-                               class="f-35 color-silver-chalice w-100 h-100 line-height-1-2 d-flex justify-content-center align-items-center pb-3">...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-specifications col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 mt-5 d-flex flex-wrap flex-lg-row">
-                <div class="pr-0 pr-md-5 mx-auto mx-lg-0 product-description">
-                    <div class="rating d-flex align-items-center">
-                        <select data-rating="">
-                            <option value=""></option>
-                            <option value="1"></option>
-                            <option value="2"></option>
-                            <option value="3"></option>
-                            <option value="4"></option>
-                            <option value="5"></option>
-                        </select>
-                        <span data-set-rating-number class="ml-2 f-16 mt-1 color-atomic-tangerine">0/5</span>
-                    </div>
-                    <h1 class="f-40 font-family-mina text-transform-capitalize color-black mt-3">Product Name</h1>
-                    <div class="d-flex justify-content-between col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 flex-wrap flex-md-row px-0">
-                        <div class="d-flex align-items-center px-0">
-                            <h6 class="text-transform-capitalize f-20 mb-0">Brand :</h6>
-                            <span class="f-20 text-transform-capitalize pl-1">NGK</span>
-                        </div>
-                        <div class="d-flex align-items-center px-0">
-                            <h6 class="text-transform-capitalize f-20 mb-0">Category :</h6>
-                            <span class="f-20 text-transform-capitalize pl-1">Engine</span>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between col-xl-12 px-0 color-change-btn mt-4">
-                        <div class="d-flex align-items-center px-0 w-100 flex-wrap flex-md-row">
-                            <h6 class="text-transform-capitalize f-20 mb-0">type :</h6>
-                            <div class="buttons pt-1 mt-2 mt-md-0">
-                                <div class="button1 d-flex">
-                                    <a href="#"
-                                       class="btn b-lightgray d-flex color-black align-items-center f-18 ml-2 ml-md-3 font-weight-bold active">
-                                        <span class="bgc bgc-silver border-radius-10 mr-2"></span>
-                                        Black Metal Box
-                                    </a>
-                                    <a href="#"
-                                       class="btn b-lightgray d-flex color-black align-items-center f-18 ml-2 ml-md-3 font-weight-bold">
-                                        <span class="bgc bgc-broom border-radius-10 mr-2"></span>
-                                        Gold Box
-                                    </a>
+                                <div class="va-nav d-flex justify-content-center align-items-center pt-4 pb-0">
+                                    <div class="va-nav-next bgc-white">
+                                        <div class="d-flex justify-content-center align-items-center h-100">
+                                            <i class="icon-font-chevron-down f-8 color-chestnut-rose"></i>
+                                        </div>
+                                    </div>
+                                    <div class="va-nav-prev bgc-white">
+                                        <div class="d-flex justify-content-center align-items-center h-100">
+                                            <i class="icon-font-chevron-up f-8 color-chestnut-rose"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="buttons car-model-btn pt-1 mt-4">
-                        <div class="button1 d-flex">
-                            <a href="#"
-                               class="btn d-flex color-black align-items-center f-20 active p-0 overflow-hidden pr-3 bgc-orange color-white">
-                                <span class="bgc-silver mr-2 px-2 py-3 f-20 bgc-stiletto">Car Model :</span>
-                                TOYOTA Yaris 2018 Excellent
-                            </a>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between col-xl-12 px-0 color-change-btn warrenty-btn mt-4">
-                        <div class="d-flex align-items-center flex-wrap px-0 w-100">
-                            <h6 class="text-transform-capitalize f-20 mb-0">Warrenty :</h6>
-                            <div class="buttons pt-1">
-                                <div class="button1 d-flex">
-                                    <a href="#" class="btn d-flex color-black align-items-center f-20 ml-1 ml-md-3 active py-0">
-                                        12 Month
-                                    </a>
-                                    <a href="#" class="btn d-flex color-black align-items-center f-20 ml-1 ml-md-3 py-0">
-                                        No-Warrenty
-                                    </a>
-                                </div>
+                    <div class="purchase-main col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 pl-2 pl-md-3 pl-lg-5 d-flex">
+                        <div class="b-lightgray border-radius-50 px-2 px-md-4">
+                            <div class="form-progress d-flex justify-content-center">
+                                <ul class="mb-0 pb-2 pt-4 d-inline-flex">
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 active">
+                                        <span class="px-3 pb-3">Address</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                        <span class="px-3 pb-3">Pay & Ship</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                        <span class="px-3 pb-3">Factor</span>
+                                        <div class="progress-item-timeline position-relative">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between col-xl-12 px-0 product-price my-3 my-md-0">
-                        <div class="d-flex align-items-center px-0">
-                            <h6 class="text-transform-capitalize f-30 mb-0">price :</h6>
-                            <span class="color-silver-chalice f-30 pl-3">
-                            <s>$25</s>
-                        </span>
-                            <span class="f-45 text-transform-capitalize pl-1 pl-3">$21.3</span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-wrap flex-md-row justify-content-center">
-                        <div class="spinner-parent border-radius-50 overflow-hidden d-inline-flex mb-3 mb-md-0">
-                            <input class="px-2 color-navy f-25" type="number" value="1" min="1" data-number-spinner>
-                        </div>
-                        <div class="buttons pt-1">
-                            <div class="button1 d-flex">
-                                <a href="#"
-                                   class="btn b-green custom-box-shadow c-white pl-5 pr-4 ml-0 ml-md-4 overflow-hidden shop-btn">
-                                    <i class="icon-font-shop align-items-center f-20 px-3"></i>
-                                    <label class="pl-3 mb-0">Add To Cart</label>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-specifications why-us-content d-flex align-items-center">
-                    <div class="d-flex justify-content-between col-xl-12 col-lg-12 col-md-12 col-sm-6 col-8 px-0 color-change-btn mt-4 bgc-gray border-radius-30 px-4">
-                        <div class="d-flex align-items-center flex-wrap px-0 w-100 py-3">
-                            <h6 class="text-transform-capitalize f-30 mb-0 d-block text-center w-100 mb-2">Why Us:</h6>
-                            <div class="buttons pt-1 w-100">
-                                <div class="button1">
-                                    <a href="#"
-                                       class="btn b-lightgray d-inline-flex color-black align-items-center f-20 mb-3 text-left">
-                                        <span class="bgc bgc-white border-radius-50 mr-3 f-20 color-navy d-inline-flex justify-content-center align-items-center">7</span>
-                                        <label class="mb-0">Days Warrenty</label>
-                                    </a>
-                                    <a href="#"
-                                       class="btn b-lightgray d-inline-flex color-black align-items-center f-20 mb-3 text-left">
-                                        <span class="bgc bgc-white border-radius-50 mr-3 f-20 color-navy d-inline-flex justify-content-center align-items-center icon-font-airplane pl-1"></span>
-                                        <label class="mb-0">Fast
-                                        Delivery
-                                        </label>
-                                    </a>
-                                    <a href="#"
-                                       class="btn b-lightgray d-inline-flex color-black align-items-center f-20 mb-3 text-left">
-                                        <span class="bgc bgc-white border-radius-50 mr-3 f-20 color-navy d-inline-flex justify-content-center align-items-center icon-font-mic pl-1"></span>
-                                        <label class="mb-0">24 H
-                                        Support
-                                        </label>
-                                    </a>
-                                    <a href="#"
-                                       class="btn b-lightgray d-inline-flex color-black align-items-center f-20 mb-3 text-left">
-                                        <span class="bgc bgc-white border-radius-50 mr-3 f-16 color-navy d-inline-flex justify-content-center align-items-center icon-font-box pl-1"></span>
-                                        <label class="mb-0">Original
-                                        Product
-                                        </label>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container custom-container">
-        <div class="row">
-            <div class="tabs pb-5 w-100 product-tab mt-5">
-                <div class="box pt-4 mt-4">
-                    <nav class="nav nav-pills">
-                        <a class="nav-item nav-link m-1 px-4 py-1 f-20 border-radius-50" href="#">Details</a>
-                        <a class="nav-item nav-link m-1 px-4 py-1 f-20 border-radius-50 active" href="#">Properties</a>
-                        <a class="nav-item nav-link m-1 px-4 py-1 f-20 border-radius-50" href="#">Comments</a>
-                    </nav>
-                    <ul class="tab-content px-4 mt-3">
-                        <li class="Properties-tab mb-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum.</p>
-                        </li>
-                        <li class="Properties-tab mb-4 active">
-                            <div class="pb-2 mb-3 d-flex d-flex align-items-center">
-                                <h5 class="20 mb-0">Weight : </h5>
-                                <span class="color-silver-chalice f-16 pl-2">56g</span>
-                            </div>
-                            <div class="pb-2 mb-3 d-flex d-flex align-items-center">
-                                <h5 class="20 mb-0">Weight : </h5>
-                                <span class="color-silver-chalice f-16 pl-2">56g</span>
-                            </div>
-                            <div class="pb-2 mb-3 d-flex d-flex align-items-center">
-                                <h5 class="20 mb-0">Weight : </h5>
-                                <span class="color-silver-chalice f-16 pl-2">56g</span>
-                            </div>
-                            <div class="pb-2 mb-3 d-flex d-flex align-items-center">
-                                <h5 class="20 mb-0">Weight : </h5>
-                                <span class="color-silver-chalice f-16 pl-2">56g</span>
-                            </div>
-                        </li>
-                        <li class="mb-4">
-                            <div class="comment">
-                                <div class="card mb-3">
-                                    <div class="card-head px-3 pt-3">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="l-head">
-                                                <img src="assets/images/user.png" alt="...">
-                                                <span class="font-weight-bold ml-2">Name</span>
-                                                <span class="time text-muted ml-lg-5 f-14">5 April 2019 | 8:40 pm</span>
-                                            </div>
-                                            <div class="r-head text-right">
-                                                <span class="text-muted">3</span>
-                                                <a href="#" class="text-decoration-none">
-                                                    <i class="icon-font-finger-like c-green"></i>
-                                                </a>
+                            <form action="" class="needs-validation" novalidate>
+                                <div class="form-group form-address d-flex flex-wrap mb-0">
+                                    <div class="col-md-6 mb-4">
+                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
+                                               for="name-val-2">name</label>
+                                        <input id="name-val-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="ali" type="text" name="text" disabled required>
+
+                                        <div class="invalid-feedback mt-2">
+                                            <div class="d-flex align-items-center">
+                                                <i class="icon-font-warning f-14"></i>
+                                                <span class="f-12 pl-2">Username already registered</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card-body">
-                                        <p class="">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat.
-                                        </p>
+                                    <div class="col-md-6 mb-4">
+                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
+                                               for="name-val-3">family</label>
+                                        <input id="name-val-3" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="rohol" type="text" name="text" disabled required>
+
+                                        <div class="invalid-feedback mt-2">
+                                            <div class="d-flex align-items-center">
+                                                <i class="icon-font-warning f-14"></i>
+                                                <span class="f-12 pl-2">Username already registered</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
+                                               for="password-2">Phone number</label>
+                                        <input id="password-2" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="989190657595" type="number" name="text" disabled required>
+
+                                        <div class="invalid-feedback mt-2">
+                                            <div class="d-flex align-items-center">
+                                                <i class="icon-font-warning f-14"></i>
+                                                <span class="f-12 pl-2">invalid password</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
+                                               for="name-val-4">country</label>
+                                        <input id="name-val-4" class="mb-0 w-100 border-radius-50 form-control border-0" data-switch-disabled
+                                               placeholder="" value="iran" type="text" name="text" disabled required>
+
+                                        <div class="invalid-feedback mt-2">
+                                            <div class="d-flex align-items-center">
+                                                <i class="icon-font-warning f-14"></i>
+                                                <span class="f-12 pl-2">Username already registered</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-4">
+                                        <label class="text-transform-capitalize w-100 color-navy f-18 px-3 mb-0 font-weight-bold"
+                                               for="name-val-5">country</label>
+                                        <textarea id="name-val-5" class="mb-0 w-100 border-radius-30 form-control border-0 px-4 pt-3" data-switch-disabled
+                                                  placeholder="" type="text" name="text" disabled required>11 , Ap4 , 4th Alley , HamedNejad ST , 22 Bahman St , Pardisan Town , Qom , Iran</textarea>
+
+                                        <div class="invalid-feedback mt-2">
+                                            <div class="d-flex align-items-center">
+                                                <i class="icon-font-warning f-14"></i>
+                                                <span class="f-12 pl-2">Username already registered</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center w-100 mb-4">
+                                        <button class="btn border-radius-50 color-white px-3 f-16 text-transform-capitalize mr-3 edit-form color-silver-chalice">edit
+                                        </button>
+                                        <button class="btn border-radius-50 bgc-green border-0 color-white px-2 f-18 text-transform-capitalize"
+                                                type="submit">Confirm
+                                        </button>
                                     </div>
                                 </div>
-                                <div class="card mb-3">
-                                    <div class="card-head px-3 pt-3">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="l-head">
-                                                <img src="assets/images/user.png" alt="...">
-                                                <span class="font-weight-bold ml-2">Name</span>
-                                                <span class="time text-muted ml-lg-5 f-14">5 April 2019 | 8:40 pm</span>
-                                            </div>
-                                            <div class="r-head text-right">
-                                                <span class="text-muted">3</span>
-                                                <a href="#" class="text-decoration-none">
-                                                    <i class="icon-font-finger-like c-green"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card mb-3">
-                                    <div class="card-head px-3 pt-3">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="l-head">
-                                                <img src="assets/images/user.png" alt="...">
-                                                <span class="font-weight-bold ml-2">Name</span>
-                                                <span class="time text-muted ml-lg-5 f-14">5 April 2019 | 8:40 pm</span>
-                                            </div>
-                                            <div class="r-head text-right">
-                                                <span class="text-muted">3</span>
-                                                <a href="#" class="text-decoration-none">
-                                                    <i class="icon-font-finger-like c-green"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-head px-3 pt-3">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="l-head">
-                                                <img src="assets/images/user.png" alt="...">
-                                                <span class="font-weight-bold ml-2">Name</span>
-                                                <span class="time text-muted ml-lg-5 f-14">5 April 2019 | 8:40 pm</span>
-                                            </div>
-                                            <div class="r-head text-right">
-                                                <span class="text-muted">3</span>
-                                                <a href="#" class="text-decoration-none">
-                                                    <i class="icon-font-finger-like c-green"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container custom-container mt-2">
-        <div class="row">
-            <div class="slider col-xl-12 px-0 mt-3">
-                <div class="d-flex flex-column flex-md-row">
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 pl-2 pl-md-0 d-flex">
-                        <div class="bgc-gallery slider-sidebar-title border-radius-bottom-65 d-flex justify-content-center align-items-center py-3 py-md-0 mb-3 mb-md-0">
-                            <h3 class="f-35 color-navy px-5 mb-0">
-                                Suggestion
-                                Product
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12 px-5 px-md-0 d-flex" data-slider
-                         data-disable-number="5"
-                         data-disable-number-xxs="1" data-disable-number-xs="1"
-                         data-disable-number-s="1" data-disable-number-m="2" data-disable-number-xl="5"
-                         data-items-nav="false"
-                         data-loop="false" data-fade="false"
-                         data-cell-align="left">
-                        <ul class="slider this-slider w-100">
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item px-0 product-box col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                                <div class="card-deck px-2">
-                                    <div class="card b-lightgray border-0 border-radius-30">
-                                        <div class="card-head p-1">
-                                            <img class="card-img" src="assets/images/ben-sweet-456320.jpg" alt="...">
-                                            <a href="#"
-                                               class="gheart b-lightgray d-flex justify-content-center align-items-center text-decoration-none">
-                                                <i class="icon-font-heart-like f-12 color-gray-2"></i>
-                                            </a>
-                                        </div>
-                                        <div class="card-body p-0 py-3">
-                                            <h6 class="px-2 py-1 b-dark text-white">hand engine</h6>
-                                            <div class="px-3">
-                                                <p class="mb-0">
-                                                    Hand engine Hand engine
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="chevron chevron-left mr-2 position-absolute bgc-navy d-flex justify-content-center align-items-center border-radius-50 cursor-pointer custom-box-shadow custom-left-right chevrons-right">
-                            <i class="icon-font-chevron-left color-white"></i>
-                        </div>
-                        <div class="chevron chevron-right ml-2 position-absolute bgc-navy d-flex justify-content-center align-items-center border-radius-50 cursor-pointer custom-box-shadow custom-left-right chevrons-right">
-                            <i class="icon-font-chevron-right color-white"></i>
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -2899,47 +2457,6 @@
         </div>
     </div>
 </div>
-<div class="modal fade slider-pop-up" id="product-slider-popUp" tabindex="-1" role="dialog"
-     aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog d-flex justify-content-center align-items-center h-100" role="document">
-        <div class="modal-content py-4">
-            <div class="container custom-container h-100">
-                <div class="row h-100">
-                    <div class="product-slider-main mb-auto col-xl-12" data-slider
-                         data-disable-number="1"
-                         data-disable-number-xxs="1" data-disable-number-xs="1" data-disable-number-s="1"
-                         data-disable-number-m="1" data-disable-number-xl="1"
-                         data-items-nav="false"
-                         data-loop="false" data-fade="true"
-                         data-cell-align="left">
-                        <ul class="slider this-slider col-xl-8 col-lg-10 mx-auto slider-pop-up-main">
-                        </ul>
-                    </div>
-                    <div class="col-xl-8 slider mt-auto mx-auto px-4 px-md-5 px-lg-4">
-                        <div class="product-slider-nav" data-slider
-                             data-disable-number="1"
-                             data-nav-select=".slider-pop-up-main"
-                             data-disable-number-xxs="3" data-disable-number-xs="3" data-disable-number-s="4"
-                             data-disable-number-m="4" data-disable-number-xl="4"
-                             data-items-nav="false"
-                             data-loop="false" data-fade="false"
-                             data-cell-align="left">
-                            <ul class="slider this-slider w-100">
-                            </ul>
-                            <div class="chevron chevron-left mr-2 position-absolute bgc-white d-flex justify-content-center align-items-center border-radius-50 cursor-pointer custom-left-right">
-                                <i class="icon-font-chevron-left color-navy"></i>
-                            </div>
-                            <div class="chevron chevron-right ml-2 position-absolute bgc-white d-flex justify-content-center align-items-center border-radius-50 cursor-pointer custom-left-right">
-                                <i class="icon-font-chevron-right color-navy"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!--black page from menu small-->
 <div class="black-page"></div>
@@ -2947,8 +2464,9 @@
 <script src="assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
 <script src="assets/js/plugins/flickity/flickity.pkgd.min.js"></script>
 <script src="assets/js/plugins/flickity/flickity-fade.js"></script>
-<script src="assets/js/plugins/jquery.barrating.min.js"></script>
 <script src="assets/js/plugins/nice-number/jquery.nice-number.js"></script>
+<script src="assets/js/plugins/vaccordion/jquery.easing.1.3.js"></script>
+<script src="assets/js/plugins/vaccordion/jquery.vaccordion.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
