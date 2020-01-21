@@ -2418,6 +2418,33 @@ header .menu-items ul.menu-down {
   }
 }
 
+.blog .blog-sidebar .blog-sidebar-item li a {
+  color: #585A71;
+}
+.blog .blog-sidebar .blog-sidebar-item li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #585A71;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: calc(50% + 1px);
+  transform: translate(0, -50%);
+}
+.blog .blog-sidebar .blog-sidebar-item li a.active, .blog .blog-sidebar .blog-sidebar-item li a:hover {
+  color: #313450;
+}
+.blog .blog-sidebar .blog-sidebar-item li a.active::before, .blog .blog-sidebar .blog-sidebar-item li a:hover::before {
+  background-color: #313450;
+}
+.blog .blog-main .blog-main-item .blog-main-item-image img {
+  border: 1px solid #797979;
+}
+.blog .blog-main .blog-main-item .blog-main-item-content p {
+  line-height: 2;
+}
+
 footer .footer-sidebar-right li i {
   min-width: 41px;
   text-align: center;

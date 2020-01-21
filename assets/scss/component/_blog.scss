@@ -1,0 +1,43 @@
+.blog{
+  .blog-sidebar{
+    .blog-sidebar-item{
+      li{
+        a{
+          color: $color-comet;
+          &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            background-color: $color-comet;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: calc(50% + 1px);
+            transform: translate(0,-50%);
+          }
+          &.active,
+          &:hover{
+            color: $color-navy;
+            &::before{
+              background-color: $color-navy;
+            }
+          }
+        }
+      }
+    }
+  }
+  .blog-main{
+    .blog-main-item{
+      .blog-main-item-image{
+        img{
+          border: 1px solid $color-boulder;
+        }
+      }
+      .blog-main-item-content{
+        p{
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
