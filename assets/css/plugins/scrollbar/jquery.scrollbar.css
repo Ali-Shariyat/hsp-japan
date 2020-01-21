@@ -77,7 +77,8 @@
   z-index: 10;
 }
 
-.scrollbar-inner > .scroll-element div {
+.scrollbar-inner > .scroll-element .scroll-element_outer,
+.scrollbar-inner > .scroll-element .scroll-element_outer div{
   display: block;
   height: 100%;
   left: 0;

@@ -68,6 +68,9 @@ body {
 .dividing-line {
   border-left: 1px solid $color-white;
 }
+.user-select-none{
+  @include user-select();
+}
 //==========================================
 // line height
 //==========================================
@@ -169,6 +172,10 @@ body {
   color: $color-black;
 }
 
+.color-black-blur-6 {
+  color: $color-black-blur-6;
+}
+
 .color-white {
   color: $color-white;
 }
@@ -179,6 +186,10 @@ body {
 
 .color-gray-2 {
   color: $color-gray-2;
+}
+
+.color-dusty-gray {
+  color: $color-dusty-gray;
 }
 
 .color-navy {
@@ -384,6 +395,10 @@ body {
 
 .icon-font-print::before {
   content: "\f127";
+}
+
+.icon-font-sort::before {
+  content: "\f130";
 }
 
 //==========================================
