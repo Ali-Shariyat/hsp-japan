@@ -374,6 +374,15 @@
 
 .payment-service {
 
+  > div{
+    > div{
+      &.dropdown{
+        .dropdown-menu{
+          width: calc(100% - 1rem);
+        }
+      }
+    }
+  }
   @include media-query("(max-width: 991px) and (min-width:768px)") {
     > div{
       flex-direction: column;

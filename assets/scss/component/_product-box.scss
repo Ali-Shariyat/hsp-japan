@@ -3,7 +3,35 @@
     .card-deck {
         .card {
             border-radius: 20px;
-
+            &.b-lightgray{
+                border: 1px solid #fff !important;
+                transition: all .2s ease;
+                &:hover{
+                    background-color: $color-navy;
+                    .card-head{
+                        .gheart{
+                            background-color: $color-orange;
+                            i{
+                                color: $color-white;
+                            }
+                        }
+                    }
+                    .card-body{
+                        .b-dark.text-white{
+                            background-color: $color-white !important;
+                            color: $color-comet-2 !important;
+                        }
+                        p{
+                            color: $color-white;
+                        }
+                        .price{
+                            .color-navy{
+                                color: $color-white;
+                            }
+                        }
+                    }
+                }
+            }
             .card-head {
                 position: relative;
 
@@ -15,6 +43,11 @@
                     padding: 10px;
                     border-radius: 50%;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+                    &.active{
+                        i{
+                            color: $color-orange;
+                        }
+                    }
                 }
 
                 .card-img {

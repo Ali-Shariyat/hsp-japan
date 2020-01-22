@@ -29,4 +29,27 @@
       }
     }
   }
+
+  &.search-box-modal {
+    .icon-font-search {
+      left: 10px;
+      top: calc(50% + 2px);
+      transform: translate(0, -50%);
+    }
+  }
+  .login-sign-popup{
+    .modal-content{
+      width: 328px;
+      .login-sign-input-label{
+        left: 0;
+        top: 8px;
+        bottom: 8px;
+        margin-bottom: 0;
+        padding: 0 10px;
+        //border-right: 1px solid $color-alto-6;
+        background-color: $color-white;
+
+      }
+    }
+  }
 }

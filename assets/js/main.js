@@ -587,4 +587,35 @@ $(document).on("click","[data-open-popup]",function () {
 $(document).on("click","[data-close-btn]",function () {
     var $this = $(this);
     $this.parents("[data-close]").removeClass("active")
+});
+
+$("[data-gallery]").each(function () {
+    var $this = $(this);
+    $this.find("[data-filter]").click(function (e) {
+        $(this).parents("[data-close]").find("[data-close-btn]").trigger("click");
+        $(this).find("a").addClass("color-white bgc-navy").parent().siblings("li").find("a").removeClass("color-white bgc-navy").addClass("color-black-blur-6");
+        $this.find(".gallery-items").isotope({filter: "[data-filtering="+$(this).attr("data-filter")+"]"});
+        e.preventDefault();
+    });
+    $(".gallery-items").isotope({
+        itemSelector: '.item',
+        masonry: {
+            columnWidth: '.grid-sizer'
+        }
+    })
+});
+$(".gheart").click(function (e) {
+    if (!$(this).hasClass("active")) {
+        $(this).addClass("active");
+    }else{
+        $(this).removeClass("active");
+    }
+    e.preventDefault();
 })
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= $(".header-big").offset().top) {
+        $(".header-big").addClass("active");
+    }else{
+        $(".header-big").removeClass("active");
+    }
+});

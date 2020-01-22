@@ -71,6 +71,9 @@ body {
 .user-select-none{
   @include user-select();
 }
+.outline-none{
+  outline: none;
+}
 //==========================================
 // line height
 //==========================================

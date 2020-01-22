@@ -1,8 +1,19 @@
 header {
+  height: 167px;
   @include media-query("(max-width: 991px)"){
     height: 42px;
   }
   .header-big {
+    &.active{
+      height: 65px;
+      .fixed-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 22;
+      }
+    }
     .header-item {
       .header-item-head {
         &:hover {

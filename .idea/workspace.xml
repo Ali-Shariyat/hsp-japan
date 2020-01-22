@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_product-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product-box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-factor.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-factor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +98,7 @@
       <workItem from="1579468752439" duration="1179000" />
       <workItem from="1579505988727" duration="15103000" />
       <workItem from="1579591001717" duration="19953000" />
-      <workItem from="1579683127401" duration="8216000" />
+      <workItem from="1579683127401" duration="12809000" />
     </task>
     <servers />
   </component>
@@ -114,14 +123,14 @@
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
     <state x="558" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1010@0.0.1920.1010" timestamp="1579436476835" />
-    <state x="647" y="79" width="757" height="852" key="find.popup" timestamp="1579526079859">
+    <state x="647" y="79" width="757" height="852" key="find.popup" timestamp="1579697078909">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
-    <state x="647" y="79" width="757" height="852" key="find.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579526079859" />
-    <state x="616" y="233" width="672" height="677" key="run.anything.popup" timestamp="1579597100227">
+    <state x="647" y="79" width="757" height="852" key="find.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579697078909" />
+    <state x="616" y="233" width="672" height="677" key="run.anything.popup" timestamp="1579697475375">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
-    <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579597100227" />
+    <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579697475375" />
     <state x="623" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1579267479353">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
