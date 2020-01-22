@@ -2504,6 +2504,10 @@ header .menu-items ul.menu-down {
     width: 100%;
   }
 }
+.products .product-main > div .gallery-items .grid-sizer {
+  visibility: hidden;
+  opacity: 0;
+}
 
 @media only screen and (max-width: 767px) {
   .blog .blog-sidebar {
