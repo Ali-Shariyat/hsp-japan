@@ -184,8 +184,16 @@ body {
   color: $color-white-blur-5;
 }
 
+.color-gray {
+  color: $color-gray;
+}
+
 .color-gray-2 {
   color: $color-gray-2;
+}
+
+.color-gray-3 {
+  color: $color-gray-3;
 }
 
 .color-dusty-gray {
@@ -214,6 +222,14 @@ body {
 
 .color-silver-chalice {
   color: $color-silver-chalice ;
+}
+
+.color-dove-gray {
+  color: $color-dove-gray ;
+}
+
+.color-broom {
+  color: $color-broom ;
 }
 
 //==========================================
@@ -399,6 +415,14 @@ body {
 
 .icon-font-sort::before {
   content: "\f130";
+}
+
+.icon-font-chat::before {
+  content: "\f131";
+}
+
+.icon-font-profile-2::before {
+  content: "\f132";
 }
 
 //==========================================

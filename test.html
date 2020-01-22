@@ -5,6 +5,13 @@
     <title>$Title$</title>
 </head>
 <body>
-$END$
+<script>
+    var a = ["a","b","c"];
+    var btn = document.createElement("p");
+    for (i=0;i<a.length;i++){
+        btn.innerHTML= a[i]
+        document.body.appendChild(btn);
+    }
+</script>
 </body>
 </html>

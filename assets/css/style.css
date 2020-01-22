@@ -251,8 +251,16 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.color-gray {
+  color: #e8e8e8;
+}
+
 .color-gray-2 {
   color: #888;
+}
+
+.color-gray-3 {
+  color: #8A8A8A;
 }
 
 .color-dusty-gray {
@@ -281,6 +289,14 @@ body {
 
 .color-silver-chalice {
   color: #B0B0B0;
+}
+
+.color-dove-gray {
+  color: #706F6F;
+}
+
+.color-broom {
+  color: #FFE816;
 }
 
 .bgc-transparent {
@@ -461,6 +477,14 @@ body {
 
 .icon-font-sort::before {
   content: "";
+}
+
+.icon-font-chat::before {
+  content: "";
+}
+
+.icon-font-profile-2::before {
+  content: "";
 }
 
 @media only screen and (min-width: 1200px) {
@@ -2418,6 +2442,25 @@ header .menu-items ul.menu-down {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .blog .blog-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 10;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  .blog .blog-sidebar.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 .blog .blog-sidebar .blog-sidebar-item li a {
   color: #585A71;
 }
@@ -2438,11 +2481,83 @@ header .menu-items ul.menu-down {
 .blog .blog-sidebar .blog-sidebar-item li a.active::before, .blog .blog-sidebar .blog-sidebar-item li a:hover::before {
   background-color: #313450;
 }
+.blog .blog-main {
+  border-left: 3px solid #e8e8e8;
+}
+@media only screen and (max-width: 768px) {
+  .blog .blog-main {
+    border-left: none;
+  }
+}
 .blog .blog-main .blog-main-item .blog-main-item-image img {
   border: 1px solid #797979;
 }
 .blog .blog-main .blog-main-item .blog-main-item-content p {
   line-height: 2;
+}
+.blog .blog-main .comment-set.purchase .comment-set-head {
+  border-bottom: 3px solid #e8e8e8;
+}
+.blog .blog-main .comment-set.purchase .form-group {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.blog .blog-main .comment-set.purchase .form-group.purchase-main .profile {
+  width: 70px;
+  height: 50px;
+}
+@media only screen and (max-width: 1440px) and (min-width:1200px) {
+  .blog .blog-main .comment-set.purchase .form-group.purchase-main .profile {
+    width: 54px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width:992px) {
+  .blog .blog-main .comment-set.purchase .form-group.purchase-main .profile {
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width:768px) {
+  .blog .blog-main .comment-set.purchase .form-group.purchase-main .profile {
+    width: 75px;
+  }
+}
+.blog .blog-main .comment-set.purchase .form-group.purchase-main .profile i {
+  color: rgba(49, 52, 80, 0.51);
+}
+.blog .blog-main .comment-set.purchase .form-group.purchase-main .send-content > div {
+  border-top: 3px solid #e8e8e8;
+}
+.blog .blog-main .comment-set.purchase .form-group.purchase-main input {
+  height: 50px;
+}
+.blog .blog-main .comment .comment-header .comment-header-line {
+  height: 2px;
+  flex: 1;
+}
+@media only screen and (max-width: 350px) {
+  .blog .blog-main .blog-content-tools {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .blog .blog-main .blog-content-tools > * {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.blog .blog-main .blog-content-tools .blog-content-tools-left li::after {
+  content: "";
+  width: 3px;
+  background-color: #706F6F;
+  height: 22px;
+  margin-left: 8px;
+  margin-right: 6px;
+}
+.blog .blog-main .blog-content-tools .blog-content-tools-left li:last-child::after {
+  content: none;
+}
+.blog .blog-main .blog-content-tools .blog-content-tools-left li > a {
+  width: 30px;
+  height: 30px;
 }
 
 footer .footer-sidebar-right li i {
