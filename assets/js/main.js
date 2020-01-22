@@ -626,4 +626,5 @@ $(window).on("load", function () {
     if ($(".loading")[0]) {
         $(".loading").fadeOut();
     }
+    $(window).resize().trigger("resize");
 });
