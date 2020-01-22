@@ -619,3 +619,13 @@ $(window).scroll(function () {
         $(".header-big").removeClass("active");
     }
 });
+//==================
+// page loader
+//==================
+$(window).on("load", function () {
+    setTimeout(function () {
+        if ($(".loading")[0]) {
+            $(".loading").fadeOut();
+        }
+    }, 150);
+});
