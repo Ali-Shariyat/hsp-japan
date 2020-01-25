@@ -68,11 +68,20 @@ body {
 .dividing-line {
   border-left: 1px solid $color-white;
 }
+
 .user-select-none{
   @include user-select();
 }
+
 .outline-none{
   outline: none;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
 }
 //==========================================
 // line height
@@ -246,6 +255,10 @@ body {
   background-color: $color-navy;
 }
 
+.bgc-black-blur-6 {
+  background-color: $color-black-blur-6;
+}
+
 .bgc-storm-gray {
   background-color: $color-storm-gray;
 }
@@ -308,6 +321,14 @@ body {
 
 .bgc-stiletto {
   background-color: $color-stiletto;
+}
+
+.bgc-reef {
+  background-color: $color-reef;
+}
+
+.bgc-picasso {
+  background-color: $color-picasso;
 }
 //==========================================
 //icon fonts
@@ -426,6 +447,22 @@ body {
 
 .icon-font-profile-2::before {
   content: "\f132";
+}
+
+.icon-font-edit::before {
+  content: "\f133";
+}
+
+.icon-font-edit::before {
+  content: "\f133";
+}
+
+.icon-font-notif::before {
+  content: "\f134";
+}
+
+.icon-font-advanced-search::before {
+  content: "\f135";
 }
 
 //==========================================

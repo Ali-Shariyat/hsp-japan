@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile-avatar/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/component/_chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/component/_profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/plugins/scrollbar/jquery.scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/plugins/scrollbar/jquery.scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scss/component" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
@@ -43,11 +61,11 @@
       <recent name="C:\My Files\Project's\hsp-japan\assets\scss\component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My Files\Project's\hsp-japan\assets\scss\component" />
+      <recent name="C:\My Files\Project's\hsp-japan\assets\images" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\images\blog" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\js\plugins\sticky" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\images\payments" />
-      <recent name="C:\My Files\Project's\hsp-japan\assets\js\plugins\jquery" />
-      <recent name="C:\My Files\Project's\hsp-japan\assets\js\plugins\asf" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -81,7 +99,9 @@
       <workItem from="1579505988727" duration="15103000" />
       <workItem from="1579591001717" duration="19953000" />
       <workItem from="1579683127401" duration="14874000" />
-      <workItem from="1579722660603" duration="437000" />
+      <workItem from="1579722660603" duration="518000" />
+      <workItem from="1579941702061" duration="1862000" />
+      <workItem from="1579943792346" duration="10108000" />
     </task>
     <servers />
   </component>
@@ -106,14 +126,15 @@
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
     <state x="558" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1010@0.0.1920.1010" timestamp="1579436476835" />
-    <state x="647" y="79" width="757" height="852" key="find.popup" timestamp="1579697078909">
+    <state x="647" y="79" width="757" height="852" key="find.popup" timestamp="1579950140162">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
-    <state x="647" y="79" width="757" height="852" key="find.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579697078909" />
-    <state x="616" y="233" width="672" height="677" key="run.anything.popup" timestamp="1579697475375">
+    <state x="647" y="79" width="757" height="852" key="find.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579950140162" />
+    <state x="616" y="233" width="672" height="677" key="run.anything.popup" timestamp="1579956265717">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
-    <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579697475375" />
+    <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579956265717" />
+    <state x="616" y="242" width="672" height="704" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579942467038" />
     <state x="623" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1579267479353">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>

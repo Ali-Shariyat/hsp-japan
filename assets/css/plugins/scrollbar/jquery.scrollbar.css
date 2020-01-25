@@ -91,6 +91,7 @@
   height: 8px;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .scrollbar-inner > .scroll-element.scroll-y {
@@ -98,6 +99,7 @@
   right: 2px;
   top: 0;
   width: 8px;
+  z-index: 1;
 }
 
 .scrollbar-inner > .scroll-element .scroll-element_outer {
