@@ -98,7 +98,6 @@ $('[data-slider]').each(function () {
     $this.find(".this-slider").trigger("dragMove.flickity");
     var trigger_slider = function (event, pointer, moveVector) {
         if ($this.find(".this-slider .item:first").hasClass("is-selected")) {
-            console.log($this.parents(".slider").find(".chevron-left:not(.chevrons-right)"));
             $this.parents(".slider").find(".chevron-left:not(.chevrons-right)").attr("disabled", "disabled");
         } else {
             $this.parents(".slider").find(".chevron-left:not(.chevrons-right)").removeAttr("disabled", "disabled");
@@ -688,3 +687,26 @@ $(document).on("click", "[data-sidebar-tab]", function (e) {
     e.stopPropagation();
     e.preventDefault();
 });
+//==================
+// floting icon header
+//==================
+$("[data-floating]").click(function(e) {
+    $(this).siblings(".floating-menu").find(".floating-main-btn").toggleClass('scale-out');
+    $(this).toggleClass("active");
+    if (!$('.zoom-card').hasClass('scale-out')) {
+        $('.zoom-card').toggleClass('scale-out');
+    }
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+$('.floating-main-btn').click(function(e) {
+    $(this).parents(".floating-menu").siblings("[data-floating]").find("span").text($(this).text());
+    $(this).parents(".floating-menu").siblings("[data-floating]").trigger("click");
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+$(window).click(function () {
+    $("[data-floating].active").trigger("click");
+})

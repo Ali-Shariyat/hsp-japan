@@ -3013,6 +3013,48 @@ header .menu-items ul.menu-down {
   resize: none;
 }
 
+.floating .floating-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #e8e8e8;
+}
+.floating .floating-btn i {
+  width: 18px;
+  height: 18px;
+  font-size: 6px;
+  bottom: -6px;
+  border-radius: 50%;
+  right: -3px;
+}
+.floating .floating-menu {
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  z-index: 1;
+  top: 100%;
+}
+.floating .floating-menu li a.floating-main-btn {
+  box-shadow: 0 0 6px -2px #e8e8e8;
+  width: 40px;
+  height: 40px;
+  transition: 0.2s ease-out;
+}
+.floating .floating-menu li a.floating-main-btn.scale-transition {
+  transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
+}
+.floating .floating-menu li a.floating-main-btn.scale-transition.scale-out {
+  transform: scale(0);
+  transition: transform 0.2s !important;
+}
+.floating .floating-menu li a.floating-main-btn.scale-transition.scale-in {
+  transform: scale(1);
+}
+.floating .floating-menu li a.floating-main-btn:hover {
+  background-color: #8C3030;
+  color: #fff;
+}
+
 footer .footer-sidebar-right li i {
   min-width: 41px;
   text-align: center;

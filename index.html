@@ -34,17 +34,25 @@
                                     1
                                 </span>
                         </a>
-                        <div class="dropdown ml-2">
-                            <a class="btn dollar-sign b-white" href="#" role="button" id="dropdownMenuDollar"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="icon-font-dollar align-items-center"></i>
-                                <i class="icon-font-chevron-down b-gray justify-content-center align-items-center"></i>
+                        <div class="floating d-flex position-relative ml-2">
+                            <a class="floating-btn position-relative d-flex align-items-center justify-content-center border-radius-50 bgc-white cursor-pointer user-select-none" data-floating>
+                                <span>$</span>
+                                <i class="icon-font-chevron-down b-gray justify-content-center align-items-center position-absolute"></i>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuDollar">
-                                <a class="dropdown-item" href="#">...</a>
-                                <a class="dropdown-item" href="#">...</a>
-                                <a class="dropdown-item" href="#">...</a>
-                            </div>
+                            <ul class="floating-menu position-absolute">
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">$</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">£</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">€</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">¥</a>
+                                </li>
+                            </ul>
                         </div>
                         <a href="#" class="btn login b-gray ml-2" data-toggle="modal" data-target="#login">
                             <i class="icon-font-avatar align-items-center"></i>

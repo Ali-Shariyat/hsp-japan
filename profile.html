@@ -35,17 +35,25 @@
                                     1
                                 </span>
                         </a>
-                        <div class="dropdown ml-2">
-                            <a class="btn dollar-sign b-white" href="#" role="button" id="dropdownMenuDollar"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="icon-font-dollar align-items-center"></i>
-                                <i class="icon-font-chevron-down b-gray justify-content-center align-items-center"></i>
+                        <div class="floating d-flex position-relative ml-2">
+                            <a class="floating-btn position-relative d-flex align-items-center justify-content-center border-radius-50 bgc-white cursor-pointer user-select-none" data-floating>
+                                <span>$</span>
+                                <i class="icon-font-chevron-down b-gray justify-content-center align-items-center position-absolute"></i>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuDollar">
-                                <a class="dropdown-item" href="#">...</a>
-                                <a class="dropdown-item" href="#">...</a>
-                                <a class="dropdown-item" href="#">...</a>
-                            </div>
+                            <ul class="floating-menu position-absolute">
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">$</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">£</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">€</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a href="" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-orange color-white cursor-pointer user-select-none scale-transition scale-out">¥</a>
+                                </li>
+                            </ul>
                         </div>
                         <a href="#" class="btn login b-gray ml-2" data-toggle="modal" data-target="#login">
                             <i class="icon-font-avatar align-items-center"></i>
@@ -63,8 +71,7 @@
                     <ul class="mb-0 d-flex py-3 position-relative w-100" data-add-rail="">
                         <li class="header-item pr-4 active">
                             <div class="header-item-head">
-                                <a href="#"
-                                   class="text-transform-capitalize c-white font-family-mina mb-0 f-22">home</a>
+                                <a href="#" class="text-transform-capitalize c-white font-family-mina mb-0 f-22">home</a>
                             </div>
                         </li>
                         <li class="header-item pr-4">
@@ -1810,7 +1817,7 @@
     <div class="d-flex d-lg-none justify-content-between container-fluid header-small py-2 position-fixed bgc-navy">
         <!----------- menu small btn to open menu ----------->
         <div class="menu-small-icon d-flex align-items-center">
-            <i class="icon-font-hammer f-18 color-white"></i>
+            <i class="icon-font-hammer font-size-18 color-white"></i>
         </div>
         <!----------- page logo in small page ----------->
         <div class="logo pr-4">
@@ -1818,17 +1825,17 @@
         </div>
         <!----------- search btn in small size ----------->
         <div class="search-login-icon d-inline-flex align-items-center color-white">
-            <span class="icon-font-search f-20 color-white" data-toggle="modal"
+            <span class="icon-font-search font-size-20 color-white" data-toggle="modal"
                   data-target="#search-box"></span>
             <div class="dividing-line py-2 ml-2 mr-1"></div>
-            <a class="icon-font-avatar f-20 f-20 ml-2 color-white" data-toggle="modal"
+            <a class="icon-font-avatar font-size-20 font-size-20 ml-2 color-white" data-toggle="modal"
                data-target="#login"></a>
         </div>
     </div>
     <!----------- menu sidebar in small size ----------->
     <div class="menu-items position-fixed h-100 text-white">
         <div class="close-menu w-100 d-flex justify-content-end"><i
-                class="icon-font-close px-2 pt-2 pb-1 f-26 d-inline-flex"></i></div>
+                class="icon-font-close px-2 pt-2 pb-1 font-size-26 d-inline-flex"></i></div>
         <ul class="">
             <li class="nav-item">
                 <a class="color-white" href="#">home</a>
