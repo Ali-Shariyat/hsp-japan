@@ -3,21 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-factor.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-factor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +87,7 @@
       <workItem from="1579941702061" duration="1862000" />
       <workItem from="1579943792346" duration="10285000" />
       <workItem from="1580039988725" duration="7459000" />
-      <workItem from="1580125077952" duration="3391000" />
+      <workItem from="1580125077952" duration="4105000" />
     </task>
     <servers />
   </component>
