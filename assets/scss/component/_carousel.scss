@@ -16,7 +16,7 @@
         .card {
           .card-head {
             .card-img {
-              min-height: 250px;
+              min-height: 180px;
               @include media-query("(max-width: 991px)") {
                 min-height: 160px;
               }
@@ -26,8 +26,8 @@
             }
 
             .discount {
-              right: -38px;
-              bottom: 56px;
+              right: -28px;
+              bottom: 68px;
               box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
               @include media-query("(max-width: 991px)") {
                 right: auto;
@@ -95,11 +95,13 @@
   }
 
   .chevron {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     transition: all .2s ease;
     margin: 0 !important;
-
+    i{
+      font-size: 14px;
+    }
     @include media-query("(max-width: 780px)") {
       width: 40px;
       height: 40px;
@@ -128,11 +130,11 @@
 
       &.custom-left-right {
         &.chevron-left {
-          left: -25px;
+          left: -18px;
         }
 
         &.chevron-right {
-          right: -25px;
+          right: -18px;
         }
 
         &.chevrons-right {
@@ -201,8 +203,9 @@
           .card {
             .card-head {
               .card-img {
-                min-height: 164px;
-                max-height: 164px;
+                min-height: 105px;
+                max-height: 105px;
+                width: auto;
                 @include media-query("(max-width: 991px) and (min-width: 767px)") {
                   min-height: 130px;
                   max-height: 130px;
@@ -289,6 +292,13 @@
   z-index: 10;
   top: 0;
   width: 90px;
+  .chevron{
+    width: 30px;
+    height: 20px;
+    i{
+      font-size: 8px;
+    }
+  }
 
   .nav-slider-main {
     height: 168px;
@@ -297,7 +307,6 @@
     top: 50%;
     transform: translate(0, -50%);
     right: 24px;
-
 
     @include media-query("(max-width: 991px) and (min-width:768px)") {
       height: 90px;

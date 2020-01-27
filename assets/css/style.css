@@ -651,7 +651,7 @@ body {
 }
 
 header {
-  height: 167px;
+  height: 161px;
 }
 @media only screen and (max-width: 991px) {
   header {
@@ -1010,7 +1010,7 @@ header .menu-items ul.menu-down {
   display: none;
 }
 .slider .timer-slider-left .product-box .card-deck .card .card-head .card-img {
-  min-height: 250px;
+  min-height: 180px;
 }
 @media only screen and (max-width: 991px) {
   .slider .timer-slider-left .product-box .card-deck .card .card-head .card-img {
@@ -1023,8 +1023,8 @@ header .menu-items ul.menu-down {
   }
 }
 .slider .timer-slider-left .product-box .card-deck .card .card-head .discount {
-  right: -38px;
-  bottom: 56px;
+  right: -28px;
+  bottom: 68px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
 }
 @media only screen and (max-width: 991px) {
@@ -1082,10 +1082,13 @@ header .menu-items ul.menu-down {
   width: 0;
 }
 .slider .chevron {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   transition: all 0.2s ease;
   margin: 0 !important;
+}
+.slider .chevron i {
+  font-size: 14px;
 }
 @media only screen and (max-width: 780px) {
   .slider .chevron {
@@ -1111,10 +1114,10 @@ header .menu-items ul.menu-down {
   right: 28px;
 }
 .slider .chevron.position-absolute.custom-left-right.chevron-left {
-  left: -25px;
+  left: -18px;
 }
 .slider .chevron.position-absolute.custom-left-right.chevron-right {
-  right: -25px;
+  right: -18px;
 }
 .slider .chevron.position-absolute.custom-left-right.chevrons-right {
   left: auto;
@@ -1165,8 +1168,9 @@ header .menu-items ul.menu-down {
   border: 5px solid #d35656;
 }
 .slider .this-slider.this-timer-slider-right .product-box .card-deck .card .card-head .card-img {
-  min-height: 164px;
-  max-height: 164px;
+  min-height: 105px;
+  max-height: 105px;
+  width: auto;
 }
 @media only screen and (max-width: 991px) and (min-width: 767px) {
   .slider .this-slider.this-timer-slider-right .product-box .card-deck .card .card-head .card-img {
@@ -1242,6 +1246,13 @@ header .menu-items ul.menu-down {
   z-index: 10;
   top: 0;
   width: 90px;
+}
+.nav-slider .chevron {
+  width: 30px;
+  height: 20px;
+}
+.nav-slider .chevron i {
+  font-size: 8px;
 }
 .nav-slider .nav-slider-main {
   height: 168px;
@@ -1538,7 +1549,7 @@ header .menu-items ul.menu-down {
 }
 .product-slider .product-slider-main .this-slider .item .btn-tools {
   z-index: 2;
-  top: -26px;
+  top: -18px;
   right: 50px;
 }
 @media only screen and (max-width: 767px) {
@@ -1547,8 +1558,8 @@ header .menu-items ul.menu-down {
   }
 }
 .product-slider .product-slider-main .this-slider .item .btn-tools .gheart {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 @media only screen and (max-width: 767px) {
   .product-slider .product-slider-main .this-slider .item .btn-tools .gheart {
@@ -1564,13 +1575,13 @@ header .menu-items ul.menu-down {
 }
 .product-slider .product-slider-main .this-slider .item img {
   border: 3px solid #e8e8e8;
-  min-height: 480px;
-  max-height: 480px;
+  min-height: 360px;
+  max-height: 360px;
 }
 @media only screen and (max-width: 1400px) and (min-width: 991px) {
   .product-slider .product-slider-main .this-slider .item img {
-    min-height: 30vw;
-    max-height: 30vw;
+    min-height: 25vw;
+    max-height: 25vw;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1588,8 +1599,8 @@ header .menu-items ul.menu-down {
 }
 @media only screen and (max-width: 1400px) and (min-width: 991px) {
   .product-slider .product-slider-nav .item > div img {
-    min-height: 6vw;
-    max-height: 6vw;
+    min-height: 5vw;
+    max-height: 5vw;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1668,7 +1679,7 @@ header .menu-items ul.menu-down {
   height: 40px;
   flex-shrink: 0;
 }
-@media only screen and (max-width: 1400px) and (min-width: 991px) {
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
   .product-specifications.why-us-content {
     flex: 0 0 100%;
     max-width: 100%;
@@ -1759,7 +1770,7 @@ header .menu-items ul.menu-down {
   width: auto;
 }
 .product-specifications .buttons .button1 .btn.b-green.shop-btn {
-  font-size: 25px !important;
+  font-size: 16px !important;
 }
 @media only screen and (max-width: 767px) {
   .product-specifications .buttons .button1 .btn.b-green.shop-btn {
@@ -1924,7 +1935,7 @@ header .menu-items ul.menu-down {
   border: 8px solid #f4f6f6;
 }
 .tabs.product-tab .box .nav {
-  top: -30px;
+  top: -26px;
 }
 @media only screen and (max-width: 500px) {
   .tabs.product-tab .box .nav {
@@ -1981,7 +1992,7 @@ header .menu-items ul.menu-down {
   border: none;
   background-color: #e8e8e8;
   padding: 0 20px 6px 20px;
-  font-size: 35px;
+  font-size: 25px;
   outline: none;
 }
 @media only screen and (max-width: 767px) {

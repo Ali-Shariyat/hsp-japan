@@ -16,7 +16,7 @@
     border: none;
     background-color: $color-gray;
     padding: 0 20px 6px 20px;
-    font-size: 35px;
+    font-size: 25px;
     outline: none;
     @include media-query("(max-width: 767px)") {
       padding: 0 20px 0px 20px;
