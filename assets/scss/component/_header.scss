@@ -1,7 +1,12 @@
 header {
-  height: 161px;
+  height: 146px;
   @include media-query("(max-width: 991px)"){
     height: 42px;
+  }
+  .top-header{
+    .form-group{
+      margin-bottom: 0;
+    }
   }
   .header-big {
     &.active{

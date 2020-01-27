@@ -651,12 +651,15 @@ body {
 }
 
 header {
-  height: 161px;
+  height: 146px;
 }
 @media only screen and (max-width: 991px) {
   header {
     height: 42px;
   }
+}
+header .top-header .form-group {
+  margin-bottom: 0;
 }
 header .header-big.active {
   height: 65px;
@@ -1010,7 +1013,7 @@ header .menu-items ul.menu-down {
   display: none;
 }
 .slider .timer-slider-left .product-box .card-deck .card .card-head .card-img {
-  min-height: 180px;
+  min-height: 217px;
 }
 @media only screen and (max-width: 991px) {
   .slider .timer-slider-left .product-box .card-deck .card .card-head .card-img {
@@ -1024,7 +1027,7 @@ header .menu-items ul.menu-down {
 }
 .slider .timer-slider-left .product-box .card-deck .card .card-head .discount {
   right: -28px;
-  bottom: 68px;
+  bottom: 105px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
 }
 @media only screen and (max-width: 991px) {
@@ -1168,8 +1171,8 @@ header .menu-items ul.menu-down {
   border: 5px solid #d35656;
 }
 .slider .this-slider.this-timer-slider-right .product-box .card-deck .card .card-head .card-img {
-  min-height: 105px;
-  max-height: 105px;
+  min-height: 140px;
+  max-height: 140px;
   width: auto;
 }
 @media only screen and (max-width: 991px) and (min-width: 767px) {

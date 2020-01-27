@@ -16,7 +16,7 @@
         .card {
           .card-head {
             .card-img {
-              min-height: 180px;
+              min-height: 217px;
               @include media-query("(max-width: 991px)") {
                 min-height: 160px;
               }
@@ -27,7 +27,7 @@
 
             .discount {
               right: -28px;
-              bottom: 68px;
+              bottom: 105px;
               box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
               @include media-query("(max-width: 991px)") {
                 right: auto;
@@ -203,8 +203,8 @@
           .card {
             .card-head {
               .card-img {
-                min-height: 105px;
-                max-height: 105px;
+                min-height: 140px;
+                max-height: 140px;
                 width: auto;
                 @include media-query("(max-width: 991px) and (min-width: 767px)") {
                   min-height: 130px;
@@ -245,7 +245,6 @@
   }
 
   &.slider-home-page {
-
     .chevron {
       @include media-query("(max-width: 991px)") {
         top: calc(50% - 28px);
