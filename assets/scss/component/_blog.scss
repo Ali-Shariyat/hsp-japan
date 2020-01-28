@@ -122,7 +122,7 @@
         }
       }
       .blog-content-tools-left {
-        li {
+        > li {
           &::after {
             content: "";
             width: 3px;
@@ -138,9 +138,24 @@
             }
           }
 
-          > a {
+          > a,
+          .floating-btn{
             width: 30px;
             height: 30px;
+          }
+          .floating {
+            .floating-menu{
+              li {
+                justify-content: center;
+                padding-right: 4px;
+                a{
+                  &.floating-main-btn{
+                    width: 30px;
+                    height: 30px;
+                  }
+                }
+              }
+            }
           }
         }
       }

@@ -4,32 +4,32 @@
       overflow: visible;
     }
 
-    .this-slider {
-      .item {
-        .btn-tools {
-          z-index: 2;
-          top: -18px;
-          right: 50px;
-          @include media-query("(max-width: 767px)") {
-            top: -20px;
-          }
+    .btn-tools {
+      z-index: 2;
+      top: -18px;
+      right: 50px;
+      @include media-query("(max-width: 767px)") {
+        top: -20px;
+      }
 
-          .gheart {
-            width: 40px;
-            height: 40px;
-            @include media-query("(max-width: 767px)") {
-              width: 40px;
-              height: 40px;
-              i {
-                font-size: 14px !important;
-              }
-            }
-
-            i {
-              color: $color-silver-chalice;
-            }
+      .gheart {
+        width: 40px;
+        height: 40px;
+        @include media-query("(max-width: 767px)") {
+          width: 40px;
+          height: 40px;
+          i {
+            font-size: 14px !important;
           }
         }
+
+        i {
+          color: $color-silver-chalice;
+        }
+      }
+    }
+    .this-slider {
+      .item {
 
         img {
           border: 3px solid $color-gray;

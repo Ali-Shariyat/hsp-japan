@@ -150,7 +150,10 @@ body {
 //box shadows
 //==========================================
 .box-shadow-navy{
-  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-none{
+  box-shadow: none !important;
 }
 //==========================================
 //cursors
@@ -244,6 +247,10 @@ body {
   color: $color-broom ;
 }
 
+.color-blue-chill {
+  color: $color-blue-chill ;
+}
+
 //==========================================
 //background colors
 //==========================================
@@ -329,6 +336,18 @@ body {
 
 .bgc-picasso {
   background-color: $color-picasso;
+}
+
+.bgc-blue-chill {
+  background-color: $color-blue-chill ;
+}
+
+.bgc-cerulean {
+  background-color: $color-cerulean ;
+}
+
+.bgc-lochmara {
+  background-color: $color-lochmara ;
 }
 //==========================================
 //icon fonts
@@ -463,6 +482,18 @@ body {
 
 .icon-font-advanced-search::before {
   content: "\f135";
+}
+
+.icon-font-linkedin::before {
+  content: "\f136";
+}
+
+.icon-font-twitter::before {
+  content: "\f137";
+}
+
+.icon-font-telegram::before {
+  content: "\f138";
 }
 
 //==========================================

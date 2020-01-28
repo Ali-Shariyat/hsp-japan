@@ -713,12 +713,25 @@ $("[data-floating]").click(function(e) {
 });
 
 $('.floating-main-btn').click(function(e) {
-    $(this).parents(".floating-menu").siblings("[data-floating]").find("span").text($(this).text());
-    $(this).parents(".floating-menu").siblings("[data-floating]").trigger("click");
-    e.stopPropagation();
-    e.preventDefault();
+    if (!$(this).parents(".stop-change-monetary-unit").length) {
+        $(this).parents(".floating-menu").siblings("[data-floating]").find("span").text($(this).text());
+        $(this).parents(".floating-menu").siblings("[data-floating]").trigger("click");
+        e.stopPropagation();
+        e.preventDefault();
+    }
 });
 
 $(window).click(function () {
     $("[data-floating].active").trigger("click");
+});
+
+//==================
+// scroll to
+//==================
+$("[data-scroll-to]").click(function (e) {
+    var $this = $(this);
+
+    $("html,body").animate({
+        scrollTop:$("[data-scroll-target="+$this.data("scroll-to")+"]").offset().top - ($(".fixed-menu").height() + 10)
+    })
 })

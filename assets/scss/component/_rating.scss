@@ -2,12 +2,12 @@
   .br-widget {
     display: flex;
     a{
-      width: 34px;
-      height: 34px;
+      width: 28px;
+      height: 28px;
       &::before{
         content: "\F105";
         font-family: icon-font, serif, sans-serif, cursive, fantasy, monospace;
-        font-size: 26px;
+        font-size: 22px;
         color: $color-gray;
       }
       &.br-selected,

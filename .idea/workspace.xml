@@ -2,30 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery-easing-1.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.bullet_navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.circular_navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.css3_animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.remote_content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.responsive_hub_connector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track_recipes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/modernizr.mediaqueries.transforms3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/responsive-hub.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icon-font.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_floating-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_floating-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_product-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product-box.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/component/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +102,7 @@
       <workItem from="1579941702061" duration="1862000" />
       <workItem from="1579943792346" duration="10285000" />
       <workItem from="1580039988725" duration="7459000" />
-      <workItem from="1580125077952" duration="16893000" />
+      <workItem from="1580125077952" duration="21675000" />
     </task>
     <servers />
   </component>

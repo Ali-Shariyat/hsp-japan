@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins/flickity/flickity.css">
     <link rel="stylesheet" type="text/css" href="assets/css/plugins/scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/css-stars.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>hsp japan</title>
     <meta charset="utf-8">
@@ -1921,7 +1922,7 @@
         </ul>
     </div>
 </header>
-
+f
 <main class="">
     <div class="container custom-container">
         <div class="row">
@@ -2019,40 +2020,55 @@
                             <div class="d-flex justify-content-between blog-content-tools">
                                 <ul class="blog-content-tools-left mb-3 mb-md-0">
                                     <li class="d-inline-flex align-items-center">
-                                        <a href="#" class="bgc-gray border-radius-50 d-flex align-items-center justify-content-center">
-                                            <i class="icon-font-share f-14 color-silver-chalice"></i>
-                                        </a>
+                                        <div class="floating d-flex position-relative ml-2">
+                                            <a class="floating-btn position-relative d-flex align-items-center justify-content-center border-radius-50 bgc-gray cursor-pointer user-select-none stop-change-monetary-unit mr-1" data-floating>
+                                                <i class="icon-font-share f-16 color-silver-chalice"></i>
+                                            </a>
+                                            <ul class="floating-menu position-absolute stop-change-monetary-unit">
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-blue-chill color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-linkedin f-10"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-cerulean color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-twitter f-10"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-lochmara color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-telegram f-10"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </li>
                                     <li class="d-inline-flex align-items-center">
-                                        <a href="#" class="bgc-gray border-radius-50 d-flex align-items-center justify-content-center">
+                                        <a href="#" class="gheart bgc-gray border-radius-50 d-flex align-items-center justify-content-center">
                                             <i class="icon-font-heart-like f-14 color-silver-chalice"></i>
                                         </a>
                                         <span class="color-silver-chalice f-14 pt-1 pl-2">5</span>
                                     </li>
                                     <li class="d-inline-flex align-items-center">
-                                        <a href="#" class="bgc-gray border-radius-50 d-flex align-items-center justify-content-center">
+                                        <a href="#" class="bgc-gray border-radius-50 d-flex align-items-center justify-content-center" data-scroll-to="target-1">
                                             <i class="icon-font-chat f-14 color-silver-chalice"></i>
                                         </a>
                                         <span class="color-silver-chalice f-14 pt-1 pl-2">3</span>
                                     </li>
                                 </ul>
-                                <ul class="blog-content-tools-right d-flex align-items-center">
-                                    <li class="ml-1">
-                                        <i class="icon-font-star-full color-broom f-18"></i>
-                                    </li>
-                                    <li class="ml-1">
-                                        <i class="icon-font-star-full color-broom f-18"></i>
-                                    </li>
-                                    <li class="ml-1">
-                                        <i class="icon-font-star-full color-broom f-18"></i>
-                                    </li>
-                                    <li class="ml-1">
-                                        <i class="icon-font-star-border color-gray f-18"></i>
-                                    </li>
-                                    <li class="ml-1">
-                                        <i class="icon-font-star-border color-gray f-18"></i>
-                                    </li>
-                                </ul>
+                                <div class="blog-content-tools-right d-flex align-items-center">
+
+                                    <div class="rating d-flex align-items-center">
+                                        <select data-rating="">
+                                            <option value=""></option>
+                                            <option value="1"></option>
+                                            <option value="2"></option>
+                                            <option value="3"></option>
+                                            <option value="4"></option>
+                                            <option value="5"></option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -2113,7 +2129,7 @@
                             </div>
                         </div>
                     </form>
-                    <div class="comment mb-5">
+                    <div class="comment mb-5" data-scroll-target="target-1">
                         <div class="comment-header d-flex align-items-center mb-5">
                             <h6 class="color-black-blur-6 font-weight-bold pr-2 mb-1">6 Comments</h6>
                             <span class="comment-header-line bgc-gray"></span>
@@ -2478,6 +2494,7 @@
 <script src="assets/js/plugins/flickity/flickity.pkgd.min.js"></script>
 <script src="assets/js/plugins/flickity/flickity-fade.js"></script>
 <script src="assets/js/plugins/scrollbar/jquery.scrollbar.js"></script>
+<script src="assets/js/plugins/jquery.barrating.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

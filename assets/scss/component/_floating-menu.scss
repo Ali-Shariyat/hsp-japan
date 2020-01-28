@@ -2,17 +2,20 @@
   .floating-btn {
     width: 40px;
     height: 40px;
-    border: 2px solid $color-gray;
 
     i {
       width: 18px;
       height: 18px;
-      font-size: 6px;
       bottom: -6px;
       border-radius: 50%;
       right: -3px;
     }
-
+    &:not(.stop-change-monetary-unit){
+      border: 2px solid $color-gray;
+      i {
+        font-size: 6px;
+      }
+    }
   }
 
   .floating-menu {
@@ -43,10 +46,29 @@
               transform: scale(1);
             }
           }
-
-          &:hover {
-            background-color: $color-el-salva;
-            color: $color-white;
+          &.bgc-orange{
+            &:hover {
+              background-color: $color-el-salva;
+              color: $color-white;
+            }
+          }
+          &.bgc-blue-chill{
+            &:hover {
+              background-color: $color-blue-chill-2;
+              color: $color-white;
+            }
+          }
+          &.bgc-cerulean{
+            &:hover {
+              background-color: $color-deep-cerulean;
+              color: $color-white;
+            }
+          }
+          &.bgc-lochmara{
+            &:hover {
+              background-color: $color-allports;
+              color: $color-white;
+            }
           }
         }
       }
