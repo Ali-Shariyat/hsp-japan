@@ -435,66 +435,96 @@ $(document).on("click", ".tabs .nav .nav-item", function (e) {
 // vertical slider
 //==================
 //
-$(function () {
-    console.log();
-    if ($('#va-accordion').length) {
-        $('#va-accordion').vaccordion({
-            accordionW: "100%",
-            accordionH: $(".item-get-height").height() * 2,
-            animSpeed: 400,
-            animOpacity: 0.7,
-            visibleSlices: 2
+// $(function () {
+//     console.log();
+//     if ($('#va-accordion').length) {
+//         $('#va-accordion').vaccordion({
+//             accordionW: "100%",
+//             accordionH: $(".item-get-height").height() * 2,
+//             animSpeed: 400,
+//             animOpacity: 0.7,
+//             visibleSlices: 2
+//         });
+//     }
+// });
+$(window).on('ready load resize orientationchange', function () {
+    $(".view-port").each(function () {
+        $(this).outerHeight($(this).find(".item").outerHeight(true) * 2);
+        $(this).find("[data-vertical-slider]").silverTrack().restart();
+        $(this).find("[data-vertical-slider]").silverTrack().reloadItems();
+    })
+});
+jQuery(function() {
+    if($("[data-vertical-slider]").length){
+        var example = $("[data-vertical-slider]");
+        var parent = example.parents(".track");
+        var track = example.silverTrack({
+            animationAxis: 'y',
         });
+
+        track.install(new SilverTrack.Plugins.Css3Animation());
+
+        track.install(new SilverTrack.Plugins.Navigator({
+            prev: $(".prev", parent),
+            next: $(".next", parent)
+        }));
+
+        track.install(new SilverTrack.Plugins.ResponsiveHubConnector({
+            layouts: ["phone", "small-tablet", "tablet", "web"],
+            onReady: function(track, options, event) {
+                options.onChange(track, options, event);
+            },
+
+            onChange: function(track, options, event) {
+                track.options.mode = "vertical";
+                track.options.autoheight = false;
+                track.options.perPage = 2;
+
+                if (event.layout === "small-tablet") {
+                    track.options.perPage = 3;
+
+                } else if (event.layout === "phone") {
+                    track.options.mode = "vertical";
+                    track.options.autoHeight = true;
+                }
+
+                track.restart({keepCurrentPage: true});
+            }
+        }));
+        track.start();
     }
+
 });
 
+$(function() {
+    $.responsiveHub({
+        layouts: {
+            480:  "phone",
+            481:  "small-tablet",
+            731:  "tablet",
+            981:  "web"
+        },
+        defaultLayout: "web"
+    });
+});
 $(document).on("click", "[data-close]", function () {
     var $this = $(this);
-    $(this).parents("[data-main-close]").fadeOut();
+    $(this).parents("[data-main-close]").fadeOut(400);
     setTimeout(function () {
         $this.parents("[data-main-close]").remove();
-    }, 800);
+    }, 500);
 });
-$(document).on("dblclick", ".va-wrapper", function () {
+$(document).on("click", ".vertical-slider", function () {
+    var $this = $(this);
     setTimeout(function () {
-        $('#va-accordion').vaccordion({
-            accordionW: "100%",
-            accordionH: 440,
-            animSpeed: 400,
-            animOpacity: 0.7,
-            visibleSlices: 2
-        });
-    }, 1000);
-});
-$(document).on("click", ".va-container", function () {
-    $(".va-wrapper").trigger("dblclick");
+        $this.find("[data-vertical-slider]").silverTrack().restart();
+        $this.find("[data-vertical-slider]").silverTrack().reloadItems();
+    }, 500);
 });
 $(document).on("click", ".va-nav", function (e) {
     e.stopPropagation();
     e.preventDefault();
 });
-// $(window).on('ready load resize orientationchange', function () {
-//     $(".vertical-slider").each(function () {
-//         var $this = $(this),
-//             find_this_slider = $this.find(".this-vertical-slider");
-//         find_this_slider.height(find_this_slider.find(".item").outerHeight(true) * 2)
-//     });
-//     $(".vertical-slider-chevron").each(function () {
-//         $(this, ".chevron-down").click(function () {
-//             var $selected_vertical = $('.vertical-slider .item.active:last').next(".item");
-//             // scroll nav
-//             var scrollY = $selected_vertical.position().top;
-//             $('.vertical-slider .this-vertical-slider').animate({
-//                 scrollTop: scrollY
-//             });
-//             $('.vertical-slider .item.active:last').nextAll(".item").slice(0, 2).addClass("active");
-//             $('.vertical-slider .item.active:last').prevAll(".item").not($('.vertical-slider .item.active:last').prev(".item")).removeClass("active");
-//             console.log(scrollY);
-//             // $('.vertical-slider .item.active:last').next(".item").addClass("active");
-//             // $('.vertical-slider .item.active:last').next(".item").addClass("active")
-//         })
-//     })
-// })
 $(".edit-form").click(function (e) {
     $(this).parents("form").find("[data-switch-disabled]").each(function () {
         if ($(this).hasAttr("disabled")) {
@@ -526,25 +556,7 @@ $(".edit-form").click(function (e) {
         });
     }, false);
 })();
-// $(window).scroll(function () {
-//     $("[data-sticky-to-top]").each(function () {
-//         $(this).height($(this).find(" [data-sticky-main]").height())
-//     });
-//     if ($(window).scrollTop() >= $("[data-sticky-to-top]").offset().top) {
-//         $("[data-sticky-to-top] [data-sticky-main]").each(function () {
-//             $(this).css({
-//                 "position": "fixed",
-//                 top: 0,
-//                 left: $(this).parent().offset().left ,
-//                 width:$(this).parent().width()
-//             })
-//         })
-//     }else{
-//         $("[data-sticky-to-top] [data-sticky-main]").each(function () {
-//             $(this).removeAttr("style")
-//         })
-//     }
-// });
+
 if ($('[data-sticky-to-top]').length) {
     $('[data-sticky-to-top]').stickySidebar({
         topSpacing: 20,
