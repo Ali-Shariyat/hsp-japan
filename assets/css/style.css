@@ -1778,8 +1778,8 @@ header .menu-items ul.menu-down {
   border: 3px solid #50d890;
 }
 .product-specifications .color-change-btn .button1 .btn .bgc {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
 }
 .product-specifications .color-change-btn.warrenty-btn .button1 .btn {
   border-radius: 14px;
@@ -1809,8 +1809,8 @@ header .menu-items ul.menu-down {
 }
 .product-specifications .buttons .button1 .btn.b-green {
   border-radius: 50px;
-  padding-top: 10px;
-  padding-bottom: 11px;
+  padding-top: 6px;
+  padding-bottom: 7px;
 }
 .product-specifications .buttons .button1 .btn.b-green i {
   width: auto;
@@ -2024,7 +2024,7 @@ header .menu-items ul.menu-down {
   }
 }
 .spinner-parent input {
-  width: 40px;
+  width: 22px;
   border: none;
   outline: none;
 }
@@ -2037,13 +2037,14 @@ header .menu-items ul.menu-down {
 .spinner-parent button {
   border: none;
   background-color: #e8e8e8;
-  padding: 0 20px 6px 20px;
+  padding: 0 10px 6px 12px;
   font-size: 25px;
   outline: none;
+  line-height: 1;
 }
 @media only screen and (max-width: 767px) {
   .spinner-parent button {
-    padding: 0 20px 0px 20px;
+    padding: 0 10px 0px 12px;
     font-size: 18px;
   }
 }
@@ -2061,7 +2062,7 @@ header .menu-items ul.menu-down {
 .rating .br-widget a::before {
   content: "";
   font-family: icon-font, serif, sans-serif, cursive, fantasy, monospace;
-  font-size: 22px;
+  font-size: 20px;
   color: #e8e8e8;
 }
 .rating .br-widget a.br-selected::before, .rating .br-widget a.br-active::before {

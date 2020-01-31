@@ -4,7 +4,7 @@
     margin-bottom: 0 !important;
   }
   input{
-    width: 40px;
+    width: 22px;
     border: none;
     outline: none;
     @include media-query("(max-width: 767px)") {
@@ -15,11 +15,12 @@
   button{
     border: none;
     background-color: $color-gray;
-    padding: 0 20px 6px 20px;
+    padding: 0 10px 6px 12px;
     font-size: 25px;
     outline: none;
+    line-height: 1;
     @include media-query("(max-width: 767px)") {
-      padding: 0 20px 0px 20px;
+      padding: 0 10px 0px 12px;
       font-size: 18px;
     }
     &:hover{
