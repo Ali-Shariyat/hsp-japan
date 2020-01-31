@@ -1622,6 +1622,7 @@ header .menu-items ul.menu-down {
   min-height: 370px;
   max-height: 370px;
   border: 3px solid #e8e8e8;
+  overflow: hidden;
 }
 @media only screen and (max-width: 1400px) and (min-width: 991px) {
   .product-slider .product-slider-main .this-slider .item {

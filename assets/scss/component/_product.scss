@@ -34,6 +34,7 @@
         min-height: 370px;
         max-height: 370px;
         border: 3px solid $color-gray;
+        overflow: hidden;
         @include media-query("(max-width: 1400px) and (min-width: 991px)") {
           min-height: 25vw;
           max-height: 25vw;
