@@ -1278,7 +1278,7 @@ header .menu-items ul.menu-down {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 4;
   top: 0;
   width: 90px;
 }
