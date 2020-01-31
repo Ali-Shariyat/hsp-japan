@@ -1,5 +1,6 @@
 .product-slider {
   .product-slider-main {
+
     .flickity-viewport {
       overflow: visible;
     }
@@ -30,19 +31,18 @@
     }
     .this-slider {
       .item {
-
+        min-height: 370px;
+        max-height: 370px;
+        border: 3px solid $color-gray;
+        @include media-query("(max-width: 1400px) and (min-width: 991px)") {
+          min-height: 25vw;
+          max-height: 25vw;
+        }
+        @include media-query("(max-width: 767px)") {
+          min-height: 60vw;
+          max-height: 60vw;
+        }
         img {
-          border: 3px solid $color-gray;
-          min-height: 370px;
-          max-height: 370px;
-          @include media-query("(max-width: 1400px) and (min-width: 991px)") {
-            min-height: 25vw;
-            max-height: 25vw;
-          }
-          @include media-query("(max-width: 767px)") {
-            min-height: 60vw;
-            max-height: 60vw;
-          }
         }
       }
     }

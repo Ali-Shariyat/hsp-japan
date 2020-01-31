@@ -1618,19 +1618,19 @@ header .menu-items ul.menu-down {
 .product-slider .product-slider-main .btn-tools .gheart i {
   color: #B0B0B0;
 }
-.product-slider .product-slider-main .this-slider .item img {
-  border: 3px solid #e8e8e8;
+.product-slider .product-slider-main .this-slider .item {
   min-height: 370px;
   max-height: 370px;
+  border: 3px solid #e8e8e8;
 }
 @media only screen and (max-width: 1400px) and (min-width: 991px) {
-  .product-slider .product-slider-main .this-slider .item img {
+  .product-slider .product-slider-main .this-slider .item {
     min-height: 25vw;
     max-height: 25vw;
   }
 }
 @media only screen and (max-width: 767px) {
-  .product-slider .product-slider-main .this-slider .item img {
+  .product-slider .product-slider-main .this-slider .item {
     min-height: 60vw;
     max-height: 60vw;
   }
