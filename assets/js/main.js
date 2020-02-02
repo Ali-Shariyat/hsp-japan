@@ -454,8 +454,8 @@ $(window).on('ready load resize orientationchange', function () {
         $(this).find("[data-vertical-slider]").silverTrack().reloadItems();
     })
 });
-jQuery(function() {
-    if($("[data-vertical-slider]").length){
+jQuery(function () {
+    if ($("[data-vertical-slider]").length) {
         var example = $("[data-vertical-slider]");
         var parent = example.parents(".track");
         var track = example.silverTrack({
@@ -471,11 +471,11 @@ jQuery(function() {
 
         track.install(new SilverTrack.Plugins.ResponsiveHubConnector({
             layouts: ["phone", "small-tablet", "tablet", "web"],
-            onReady: function(track, options, event) {
+            onReady: function (track, options, event) {
                 options.onChange(track, options, event);
             },
 
-            onChange: function(track, options, event) {
+            onChange: function (track, options, event) {
                 track.options.mode = "vertical";
                 track.options.autoheight = false;
                 track.options.perPage = 2;
@@ -492,20 +492,17 @@ jQuery(function() {
             }
         }));
         track.start();
+        $.responsiveHub({
+            layouts: {
+                480: "phone",
+                481: "small-tablet",
+                731: "tablet",
+                981: "web"
+            },
+            defaultLayout: "web"
+        });
     }
 
-});
-
-$(function() {
-    $.responsiveHub({
-        layouts: {
-            480:  "phone",
-            481:  "small-tablet",
-            731:  "tablet",
-            981:  "web"
-        },
-        defaultLayout: "web"
-    });
 });
 $(document).on("click", "[data-close]", function () {
     var $this = $(this);
@@ -559,9 +556,9 @@ $(".edit-form").click(function (e) {
 
 if ($('[data-sticky-to-top]').length) {
     $('[data-sticky-to-top]').stickySidebar({
-        topSpacing: 20,
-        containerSelector: '[data-sticky-to-top]',
-        innerWrapperSelector: '[data-sticky-main]',
+        topSpacing: 70,
+        containerSelector: '[data-sticky-main]',
+        innerWrapperSelector: '[sidebar-inner]',
     });
 }
 $(window).on('ready load resize change', function () {
@@ -702,7 +699,7 @@ $(document).on("click", "[data-sidebar-tab]", function (e) {
 //==================
 // floting icon header
 //==================
-$("[data-floating]").click(function(e) {
+$("[data-floating]").click(function (e) {
     $(this).siblings(".floating-menu").find(".floating-main-btn").toggleClass('scale-out');
     $(this).toggleClass("active");
     if (!$('.zoom-card').hasClass('scale-out')) {
@@ -712,7 +709,7 @@ $("[data-floating]").click(function(e) {
     e.preventDefault();
 });
 
-$('.floating-main-btn').click(function(e) {
+$('.floating-main-btn').click(function (e) {
     if (!$(this).parents(".stop-change-monetary-unit").length) {
         $(this).parents(".floating-menu").siblings("[data-floating]").find("span").text($(this).text());
         $(this).parents(".floating-menu").siblings("[data-floating]").trigger("click");
@@ -732,6 +729,13 @@ $("[data-scroll-to]").click(function (e) {
     var $this = $(this);
 
     $("html,body").animate({
-        scrollTop:$("[data-scroll-target="+$this.data("scroll-to")+"]").offset().top - ($(".fixed-menu").height() + 10)
+        scrollTop: $("[data-scroll-target=" + $this.data("scroll-to") + "]").offset().top - ($(".fixed-menu").height() + 10)
     })
 })
+//==================
+// payment items
+//==================
+$(".payment-items ul li a").click(function (e) {
+    $(this).parent().addClass("active").siblings().removeClass("active");
+    e.preventDefault();
+});

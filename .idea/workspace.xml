@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/component/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-factor.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-factor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +61,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/blog" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My Files\Project's\hsp-japan\assets\images\blog" />
+      <recent name="C:\My Files\Project's\hsp-japan\assets\images" />
+      <recent name="C:\My Files\Project's\hsp-japan\assets\js\plugins\silver-track" />
+      <recent name="C:\My Files\Project's\hsp-japan\assets\images\home-page-slider" />
+      <recent name="C:\My Files\Project's\hsp-japan\assets\images\slider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My Files\Project's\hsp-japan\assets\images\slider" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\css\plugins" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\scss\component" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My Files\Project's\hsp-japan\assets\js\plugins\silver-track" />
-      <recent name="C:\My Files\Project's\hsp-japan\assets\images\blog" />
-      <recent name="C:\My Files\Project's\hsp-japan\assets\images\home-page-slider" />
-      <recent name="C:\My Files\Project's\hsp-japan\assets\images\slider" />
-      <recent name="C:\My Files\Project's\hsp-japan" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -94,7 +116,8 @@
       <workItem from="1580039988725" duration="7459000" />
       <workItem from="1580125077952" duration="22423000" />
       <workItem from="1580374337850" duration="1542000" />
-      <workItem from="1580493659775" duration="1898000" />
+      <workItem from="1580493659775" duration="3102000" />
+      <workItem from="1580644370957" duration="11561000" />
     </task>
     <servers />
   </component>
@@ -102,6 +125,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580653588768">
+      <screen x="0" y="0" width="1920" height="1010" />
+    </state>
+    <state x="690" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1010@0.0.1920.1010" timestamp="1580653588768" />
     <state x="596" y="289" key="EditFileWatcherDialog" timestamp="1580375312666">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -131,10 +158,10 @@
     </state>
     <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1580040621469" />
     <state x="616" y="242" width="672" height="704" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579942467038" />
-    <state x="623" y="226" width="672" height="705" key="search.everywhere.popup" timestamp="1580495200343">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="623" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1580657262961">
+      <screen x="0" y="0" width="1920" height="1010" />
     </state>
-    <state x="623" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1579267479353" />
+    <state x="623" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1580657262961" />
     <state x="623" y="226" width="672" height="705" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580495200343" />
   </component>
 </project>

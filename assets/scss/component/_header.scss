@@ -3,6 +3,16 @@ header {
   @include media-query("(max-width: 991px)"){
     height: 42px;
   }
+  .logo{
+    img{
+      width: 122px;
+      @include media-query("(max-width: 991px)") {
+        background: $color-lightgray;
+        border-radius: 50px;
+        padding: 5px 12px;
+      }
+    }
+  }
   .top-header{
     .form-group{
       margin-bottom: 0;

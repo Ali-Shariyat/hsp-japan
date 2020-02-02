@@ -8,6 +8,14 @@ footer {
       }
     }
   }
+  .footer-logo{
+    img{
+
+      width: 100%;
+      border-radius: 20px;
+      padding: 5px 12px;
+    }
+  }
   .footer-content-title {
     border-bottom: 3px solid $color-white;
   }

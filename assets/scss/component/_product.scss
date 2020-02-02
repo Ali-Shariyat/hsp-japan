@@ -29,6 +29,7 @@
         }
       }
     }
+
     .this-slider {
       .item {
         min-height: 370px;
@@ -43,6 +44,7 @@
           min-height: 60vw;
           max-height: 60vw;
         }
+
         img {
         }
       }
@@ -53,18 +55,31 @@
     .item {
       > div {
         border: 3px solid $color-gray;
+        min-height: 50px;
+        max-height: 50px;
+        @include media-query("(max-width: 1722px) and (min-width: 1500px)") {
+          max-height: 60px;
+          min-height: 60px;
+        }
+        @include media-query("(max-width: 1499px) and (min-width: 1200px)") {
+          max-height: 50px;
+          min-height: 50px;
+        }
+        @include media-query("(max-width: 991px)") {
+          max-height: 10vw;
+          min-height: 10vw;
+        }
+        @include media-query("(max-width: 767px)") {
+          max-height: 105px;
+          min-height: 105px;
+        }
+        @include media-query("(max-width: 567px)") {
+          max-height: 20vw;
+          min-height: 20vw;
+        }
 
         img {
-          min-height: 41px;
-          max-height: 41px;
-          @include media-query("(max-width: 1400px) and (min-width: 991px)") {
-            min-height: 5vw;
-            max-height: 5vw;
-          }
-          @include media-query("(max-width: 767px)") {
-            min-height: 15vw;
-            max-height: 15vw;
-          }
+          max-height: 100%;
         }
       }
 
@@ -76,7 +91,17 @@
     }
   }
 }
-
+.form-progress{
+  &.form-progress-product{
+    .progress-item {
+      .progress-item-timeline {
+        span{
+          outline: 6px solid $color-white;
+        }
+      }
+    }
+  }
+}
 .slider {
   &.product-slider-nav {
     .this-slider {
@@ -369,28 +394,35 @@
           display: flex;
           border-radius: 20px !important;
           border: 3px solid $color-gray;
+          height: 400px;
+          max-height: 400px;
+          min-height: 100px;
+          margin: auto;
+          width: 100% !important;
+          overflow: hidden;
 
           .btn-tools {
             display: none;
           }
 
+          @include media-query("(max-width: 1400px) and (min-width: 1200px)") {
+            height: 280px;
+            min-height: 280px;
+          }
+          @include media-query("(max-width: 1300px) and (min-width: 991px)") {
+            max-height: 310px;
+            min-height: 310px;
+          }
+          @include media-query("(max-width: 991px)") {
+            max-height: 310px;
+            min-height: 310px;
+          }
+          @include media-query("(max-width: 767px)") {
+            max-height: 50vw;
+            min-height: 50vw;
+          }
+
           img {
-            max-height: 430px;
-            min-height: 100px;
-            margin: auto;
-            width: auto !important;
-            @include media-query("(max-width: 1300px) and (min-width: 991px)") {
-              max-height: 310px;
-              min-height: 310px;
-            }
-            @include media-query("(max-width: 991px)") {
-              max-height: 310px;
-              min-height: 310px;
-            }
-            @include media-query("(max-width: 767px)") {
-              max-height: 50vw;
-              min-height: 50vw;
-            }
           }
         }
       }
@@ -400,7 +432,50 @@
           flex: 0 0 25%;
           max-width: 25%;
           width: 25%;
-          padding: 10px;
+          margin: 10px 0;
+          padding: 0 6px;
+          @include media-query("(max-width: 1300px) and (min-width: 1200px)") {
+            flex: 0 0 25%;
+            max-width: 25%;
+            width: 25%;
+          }
+          @include media-query("(max-width: 1199px) and (min-width: 991px)") {
+            flex: 0 0 50%;
+            max-width: 50%;
+            width: 50%;
+          }
+          div{
+            border: 3px solid #e8e8e8;
+            padding: 10px;
+            max-height: 70px;
+            min-height: 70px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            @include media-query("(max-width: 1722px) and (min-width: 1500px)") {
+              max-height: 60px;
+              min-height: 60px;
+            }
+            @include media-query("(max-width: 1499px) and (min-width: 1200px)") {
+              max-height: 50px;
+              min-height: 50px;
+            }
+            @include media-query("(max-width: 991px)") {
+              max-height: 7vw;
+              min-height: 7vw;
+              height: 7vw;
+            }
+            @include media-query("(max-width: 767px)") {
+              max-height: 86px;
+              min-height: 86px;
+              height: 86px;
+            }
+            @include media-query("(max-width: 567px)") {
+              max-height: 20vw;
+              min-height: 20vw;
+            }
+          }
           @include media-query("(max-width: 567px)") {
             flex: 0 0 33.3333%;
             max-width: 33.3333%;
@@ -412,37 +487,12 @@
           }
 
           img {
-            max-height: 90px;
-            min-height: 90px;
             cursor: pointer;
             border-radius: 20px !important;
-            border: 3px solid $color-gray;
-            @include media-query("(max-width: 1300px) and (min-width: 1200px)") {
-              max-height: 5vw;
-              min-height: 5vw;
-            }
-            @include media-query("(max-width: 1200px) and (min-width: 991px)") {
-              max-height: 7vw;
-              min-height: 7vw;
-            }
-            @include media-query("(max-width: 991px)") {
-              max-height: 7vw;
-              min-height: 7vw;
-              height: 7vw;
-            }
-            @include media-query("(max-width: 767px)") {
-              max-height: 16vw;
-              min-height: 16vw;
-              height: 16vw;
-            }
-            @include media-query("(max-width: 567px)") {
-              max-height: 20vw;
-              min-height: 20vw;
-            }
           }
 
           &.is-nav-selected {
-            img {
+            div{
               border: 3px solid $color-green;
             }
           }

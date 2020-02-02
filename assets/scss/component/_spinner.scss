@@ -7,6 +7,9 @@
     width: 22px;
     border: none;
     outline: none;
+    &.big-width{
+      width: 42px;
+    }
     @include media-query("(max-width: 767px)") {
       font-size: 18px;
       padding-bottom: 4px;

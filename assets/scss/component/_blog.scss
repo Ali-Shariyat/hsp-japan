@@ -13,11 +13,12 @@
       visibility: hidden;
       opacity: 0;
       transition: all .2s ease;
-      &.active{
+      &.active {
         visibility: visible;
         opacity: 1;
       }
     }
+
     .blog-sidebar-item {
       li {
         a {
@@ -49,14 +50,45 @@
   }
 
   .blog-main {
-    border-left: 3px solid $color-gray;
+    &:not(.set-before){
+      border-left: 3px solid $color-gray;
+    }
+
+    &.set-before {
+      > ul {
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: -15px;
+          top: -24px;
+          bottom: -68px;
+          width: 3px;
+          background-color: #e8e8e8;
+        }
+      }
+    }
+
     @include media-query("(max-width: 768px)") {
       border-left: none;
+      > ul {
+        &::before {
+          content: none;
+        }
+      }
     }
+
     .blog-main-item {
       .blog-main-item-image {
-        img {
+        > div {
+          height: 240px;
+          border-radius: 36px;
+          overflow: hidden;
           border: 1px solid $color-boulder;
+        }
+
+        img {
         }
       }
 
@@ -66,15 +98,18 @@
         }
       }
     }
-    .comment-set{
-      &.purchase{
-        .comment-set-head{
+
+    .comment-set {
+      &.purchase {
+        .comment-set-head {
           border-bottom: 3px solid $color-gray;
         }
-        .form-group{
+
+        .form-group {
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-          &.purchase-main{
-            .profile{
+
+          &.purchase-main {
+            .profile {
               width: 70px;
               height: 50px;
               @include media-query("(max-width: 1440px) and (min-width:1200px)") {
@@ -86,22 +121,26 @@
               @include media-query("(max-width: 991px) and (min-width:768px)") {
                 width: 75px;
               }
-              i{
+
+              i {
                 color: rgba(49, 52, 80, 0.51);;
               }
             }
-            .send-content{
-              > div{
+
+            .send-content {
+              > div {
                 border-top: 3px solid $color-gray;
               }
             }
-            input{
+
+            input {
               height: 50px;
             }
           }
         }
       }
     }
+
     .comment {
       .comment-header {
         .comment-header-line {
@@ -115,12 +154,13 @@
       @include media-query("(max-width: 350px)") {
         flex-wrap: wrap;
         justify-content: center !important;
-        > *{
+        > * {
           width: 100%;
           text-align: center;
           justify-content: center;
         }
       }
+
       .blog-content-tools-left {
         > li {
           &::after {
@@ -139,17 +179,19 @@
           }
 
           > a,
-          .floating-btn{
+          .floating-btn {
             width: 30px;
             height: 30px;
           }
+
           .floating {
-            .floating-menu{
+            .floating-menu {
               li {
                 justify-content: center;
                 padding-right: 4px;
-                a{
-                  &.floating-main-btn{
+
+                a {
+                  &.floating-main-btn {
                     width: 30px;
                     height: 30px;
                   }

@@ -14,7 +14,12 @@
 <header>
     <div class="top-header d-none d-lg-block">
         <div class="container custom-container">
-            <div class="row justify-content-end py-4">
+            <div class="row justify-content-between py-4">
+                <div class="logo col-xl-2 col-lg-2 col-md-2 px-0">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="logo" class="b-lightgray">
+                    </a>
+                </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mr-5">
                     <div class="product-box">
                         <div class="text-boxes">
@@ -1821,8 +1826,10 @@
             <i class="icon-font-hammer font-size-18 color-white"></i>
         </div>
         <!----------- page logo in small page ----------->
-        <div class="logo pr-4">
-            <a href="#"><img src="assets/image/logo.png" alt="logo"></a>
+        <div class="logo col-xl-2 col-lg-2 col-md-2 px-0 d-flex justify-content-center">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
         </div>
         <!----------- search btn in small size ----------->
         <div class="search-login-icon d-inline-flex align-items-center color-white">
@@ -1927,32 +1934,34 @@
     <div class="container-fluid position-relative">
         <div class="container custom-container purchase-parent">
             <div class="row">
-                <div class="purchase w-100 mt-5 d-flex flex-wrap flex-md-row">
-                    <div class="purchase-sidebar bgc-navy col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 position-relative d-flex pt-4 px-5 border-radius-50 mb-4 mb-md-0">
-                        <div class="text-center w-100" data-sticky-to-top>
-                            <div data-sticky-main class="pb-4">
-                                <h4 class="color-white-blur-5">Factor Code:</h4>
-                                <h2 class="color-white">FR4510287</h2>
+                <div class="purchase w-100 mt-5 d-flex flex-wrap flex-md-row align-items-start" data-sticky-main>
+                    <div class="purchase-sidebar col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 position-relative factor-code px-0" data-sticky-to-top>
+                        <div class="bgc-navy d-flex pt-4 px-5 border-radius-50 mb-4 mb-md-0" sidebar-inner>
+                            <div class="text-center w-100 d-flex align-items-center justify-content-center">
+                                <div class="pb-4">
+                                    <h4 class="color-white-blur-5">Factor Code:</h4>
+                                    <h2 class="color-white">FR4510287</h2>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="purchase-main col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 pl-2 pl-md-3 pl-lg-5 d-flex">
+                    <div class="purchase-main col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 pl-2 pl-md-3 pl-lg-5 d-flex" >
                         <div class="b-lightgray border-radius-50 px-4 w-100">
                             <div class="form-progress d-flex justify-content-center">
                                 <ul class="mb-0 pb-2 pt-4 d-inline-flex">
-                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 active">
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 passed">
                                         <span class="px-3 pb-3">Address</span>
                                         <div class="progress-item-timeline position-relative">
                                             <span></span>
                                         </div>
                                     </li>
-                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 passed">
                                         <span class="px-3 pb-3">Pay & Ship</span>
                                         <div class="progress-item-timeline position-relative">
                                             <span></span>
                                         </div>
                                     </li>
-                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3">
+                                    <li class="progress-item position-relative d-inline-flex flex-column pb-3 active">
                                         <span class="px-3 pb-3">Factor</span>
                                         <div class="progress-item-timeline position-relative">
                                             <span></span>
@@ -2064,9 +2073,28 @@
                                         </div>
                                     </div>
                                     <div class="purchase-table-tools d-flex justify-content-end w-100 px-3 pt-4 pb-5">
-                                        <a href="" class="btn border-radius-50 bgc-navy d-flex justify-content-center align-items-center color-white ml-2 pr-3">
-                                            <i class="icon-font-share"></i>
-                                        </a>
+                                        <div class="floating d-flex position-relative ml-2">
+                                            <a class="floating-btn position-relative d-flex align-items-center justify-content-center border-radius-50 bgc-navy cursor-pointer user-select-none stop-change-monetary-unit mr-1" data-floating>
+                                                <i class="icon-font-share f-16 color-white"></i>
+                                            </a>
+                                            <ul class="floating-menu position-absolute stop-change-monetary-unit">
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-blue-chill color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-linkedin f-10"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-cerulean color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-twitter f-10"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="d-flex mt-2">
+                                                    <a href="#" class="floating-main-btn d-flex align-items-center justify-content-center border-radius-50 bgc-lochmara color-white cursor-pointer user-select-none scale-transition scale-out">
+                                                        <i class="icon-font-telegram f-10"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                         <a href="" class="btn border-radius-50 bgc-green d-flex justify-content-center align-items-center color-white ml-2">
                                             <i class="icon-font-print"></i>
                                         </a>
@@ -2086,7 +2114,11 @@
 <footer class="bg-seashell pt-5 pb-0 mt-5 flex-column d-flex bgc-navy">
     <div class="container custom-container d-flex flex-md-row flex-wrap">
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex flex-wrap mb-4">
-            <div class="footer-logo"></div>
+            <div class="footer-logo mb-3">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" class="b-lightgray">
+                </a>
+            </div>
             <div class="address mt-auto">
                 <div class="address-head">
                     <h5 class="f-25 color-white">Hello Spare parts</h5>
