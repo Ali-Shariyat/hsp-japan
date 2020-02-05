@@ -287,7 +287,7 @@ $('[data-slider][data-timer-set]').each(function (i, container) {
     var selectedIndex = flkty.selectedIndex;
 
     var slideCount = flkty.slides.length;
-    iner.find('.gallery__caption .image-caption');
+    $container.find('.gallery__caption .image-caption');
 
     $slider.on('select.flickity', function () {
         // set image caption using img's alt
