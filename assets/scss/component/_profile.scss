@@ -5,7 +5,7 @@
       .sticky {
         position: sticky;
         top: 120px;
-        z-index: 2;
+        z-index: 1;
       }
     }
     @include media-query("(max-width: 767px)") {

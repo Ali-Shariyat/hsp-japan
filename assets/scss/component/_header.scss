@@ -1,10 +1,11 @@
 header {
   height: 147px;
-  @include media-query("(max-width: 991px)"){
+  @include media-query("(max-width: 991px)") {
     height: 42px;
   }
-  .logo{
-    img{
+
+  .logo {
+    img {
       width: 122px;
       @include media-query("(max-width: 991px)") {
         background: $color-lightgray;
@@ -13,15 +14,18 @@ header {
       }
     }
   }
-  .top-header{
-    .form-group{
+
+  .top-header {
+    .form-group {
       margin-bottom: 0;
     }
   }
+
   .header-big {
-    &.active{
+    &.active {
       height: 65px;
-      .fixed-menu{
+
+      .fixed-menu {
         position: fixed;
         top: 0;
         left: 0;
@@ -29,6 +33,7 @@ header {
         z-index: 22;
       }
     }
+
     .header-item {
       .header-item-head {
         &:hover {
@@ -48,13 +53,15 @@ header {
         top: 100%;
         opacity: 0;
         visibility: hidden;
-        top: calc(100% - 14px);
-        padding-top: 14px;
-        > div{
+        top: calc(100% - 20px);
+        padding-top: 20px;
+
+        > div {
           border-top: 2px solid $color-white;
           box-shadow: 0 1px 5px 0 $color-navy;
           border-radius: 0 0 10px 10px;
         }
+
         @include transition(all .2s ease);
 
         &:hover {
@@ -102,12 +109,14 @@ header {
       left: 0;
       top: 50%;
       @include transition(all .2s ease);
+      pointer-events: none;
     }
   }
 
-  .header-small{
+  .header-small {
     z-index: 5;
   }
+
   .menu-items {
     z-index: 1003;
     top: 0;
@@ -119,11 +128,16 @@ header {
     //.close-menu > .far {
     //  font-size: $f-26;
     //}
+    @include media-query("(min-width:992px)") {
+      display: none !important;
+    }
     ul {
       width: 100%;
       padding: 15px;
+
       &.menu-down {
         display: none;
+
         li {
           @include media-query(LB) {
             color: $color-white;

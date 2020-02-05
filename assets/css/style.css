@@ -135,6 +135,10 @@ a.bgc-orange:hover {
   color: #fff;
 }
 
+html, body {
+  overflow: hidden;
+}
+
 body {
   font-family: Muli, serif, sans-serif, cursive, fantasy, monospace;
 }
@@ -598,6 +602,11 @@ body {
   position: fixed;
   display: none;
 }
+@media only screen and (min-width:992px) {
+  .black-page {
+    display: none !important;
+  }
+}
 
 .buttons .button1 .btn {
   border-radius: 20px;
@@ -727,8 +736,8 @@ header .header-big .header-item .header-item-main {
   top: 100%;
   opacity: 0;
   visibility: hidden;
-  top: calc(100% - 14px);
-  padding-top: 14px;
+  top: calc(100% - 20px);
+  padding-top: 20px;
   transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -770,6 +779,7 @@ header .header-big .rail {
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
+  pointer-events: none;
 }
 header .header-small {
   z-index: 5;
@@ -782,6 +792,11 @@ header .menu-items {
   background-color: #272727;
   transition: all 0.5s;
   overflow-y: scroll;
+}
+@media only screen and (min-width:992px) {
+  header .menu-items {
+    display: none !important;
+  }
 }
 header .menu-items ul {
   width: 100%;
@@ -3034,7 +3049,7 @@ header .menu-items ul.menu-down {
   .profile .profile-sidebar .sticky {
     position: sticky;
     top: 120px;
-    z-index: 2;
+    z-index: 1;
   }
 }
 @media only screen and (max-width: 767px) {

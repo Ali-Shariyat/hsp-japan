@@ -2,35 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576639-beb5-4dfe-a006-b1eea3eb73d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/plugins/nice-number/jquery.nice-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/plugins/nice-number/jquery.nice-number.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Muli/README" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Muli/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/isotope/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/nice-number/jquery.nice-number.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/nice-number/jquery.nice-number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/popper/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/popper/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery-easing-1.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery-easing-1.3.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.bullet_navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.bullet_navigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.circular_navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.circular_navigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.css3_animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.css3_animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.navigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.remote_content.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.remote_content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.responsive_hub_connector.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track.responsive_hub_connector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track_recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/jquery.silver_track_recipes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/modernizr.mediaqueries.transforms3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/modernizr.mediaqueries.transforms3d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/silver-track/responsive-hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/silver-track/responsive-hub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/sticky/jquery.sticky-sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/sticky/jquery.sticky-sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/sticky/sticky-sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/sticky/sticky-sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/vaccordion/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/vaccordion/jquery.mousewheel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_comment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/component/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_product.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/component/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_purchase.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/component/_spinner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/bootstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-address.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/purchase-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchase-factor.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-factor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +70,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -78,6 +87,11 @@
       <recent name="C:\My Files\Project's\hsp-japan\assets\css\plugins" />
       <recent name="C:\My Files\Project's\hsp-japan\assets\scss\component" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="5" />
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -117,7 +131,9 @@
       <workItem from="1580125077952" duration="22423000" />
       <workItem from="1580374337850" duration="1542000" />
       <workItem from="1580493659775" duration="3102000" />
-      <workItem from="1580644370957" duration="11561000" />
+      <workItem from="1580644370957" duration="12002000" />
+      <workItem from="1580721005649" duration="1377000" />
+      <workItem from="1580899179338" duration="4269000" />
     </task>
     <servers />
   </component>
@@ -153,11 +169,11 @@
     </state>
     <state x="647" y="79" width="757" height="852" key="find.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1580045660018" />
     <state x="647" y="82" width="757" height="886" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580494433726" />
-    <state x="616" y="233" width="672" height="677" key="run.anything.popup" timestamp="1580040621469">
-      <screen x="0" y="0" width="1920" height="1010" />
+    <state x="616" y="242" width="672" height="704" key="run.anything.popup" timestamp="1580721702019">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="233" width="672" height="677" key="run.anything.popup/0.0.1920.1010@0.0.1920.1010" timestamp="1580040621469" />
-    <state x="616" y="242" width="672" height="704" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579942467038" />
+    <state x="616" y="242" width="672" height="704" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580721702019" />
     <state x="623" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1580657262961">
       <screen x="0" y="0" width="1920" height="1010" />
     </state>
